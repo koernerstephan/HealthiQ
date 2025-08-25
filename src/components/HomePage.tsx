@@ -559,7 +559,7 @@ const HomePage: React.FC = () => {
                 <div className="order-2 lg:order-1">
                   <div className="relative">
                     <img 
-                      src="/src/assets/Bene_Stephan_quadrat.jpg" 
+                      src="/Bene_Stephan_quadrat.jpg" 
                       alt="Benedikt Hochmuth und Stephan Körner - Die Gründer von HealthiQ" 
                       className="w-full h-auto rounded-2xl shadow-lg"
                     />
