@@ -650,6 +650,11 @@ const HomePage: React.FC = () => {
                   alt="MCI Logo" 
                   className="h-12 md:h-18 w-auto opacity-70 hover:opacity-100 transition-opacity duration-300"
                 />
+                <img 
+                  src="/healthhub_logo.tiff" 
+                  alt="Health Hub Logo" 
+                  className="h-16 md:h-20 w-auto opacity-70 hover:opacity-100 transition-opacity duration-300"
+                />
               </div>
             </ScrollAnimationWrapper>
           </div>
