@@ -43,7 +43,7 @@ const StickyNavigation: React.FC = () => {
   return (
     <>
       {/* Desktop Navigation */}
-      <nav className="hidden md:flex fixed top-0 left-0 right-0 z-50 bg-healthiq-primary/95 backdrop-blur-sm border-b border-healthiq-secondary/30">
+      <nav className="hidden md:flex fixed top-0 left-0 right-0 z-50 bg-healthiq-primary backdrop-blur-sm border-b border-healthiq-secondary/30">
         <div className="max-w-7xl mx-auto px-6 w-full">
           <div className="flex items-center justify-between h-16">
             {/* Logo */}
