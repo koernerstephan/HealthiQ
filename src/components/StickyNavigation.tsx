@@ -49,7 +49,7 @@ const StickyNavigation: React.FC = () => {
             {/* Logo */}
             <button
               onClick={() => scrollToSection('#hero-section')}
-              className="text-xl font-bold text-healthiq-background"
+              className="text-xl font-bold bg-healthiq-primary"
             >
               <img 
                 src="/Logo_HealthiQ.JPG" 
