@@ -659,9 +659,9 @@ const HomePage: React.FC = () => {
             </ScrollAnimationWrapper>
 
              {/* Subtle Divider */}
-      <div className="container mx-auto px-6 padding: 10px 0 0 0;">
-        <div className="h-px bg-gray-200 opacity-50 max-w-6xl mx-auto"></div>
-      </div>
+            <div className="my-10 md:my-12">
+              <div className="h-[2px] max-w-6xl opacity-50 bg-gray-200"></div>
+            </div>
             
              <ScrollAnimationWrapper animationType="fade-up">
         <div className="text-center mb-8">
