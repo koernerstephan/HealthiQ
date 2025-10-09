@@ -661,7 +661,7 @@ const HomePage: React.FC = () => {
              <ScrollAnimationWrapper animationType="fade-up">
               <div className="text-center mb-8">
                 <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4 pt-4">
-                  Presse & Artikel über HealthiQ
+                  Presse &amp; Artikel über HealthiQ
                 </h2>
               </div>
             </ScrollAnimationWrapper>
