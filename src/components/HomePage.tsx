@@ -657,6 +657,26 @@ const HomePage: React.FC = () => {
                 />
               </div>
             </ScrollAnimationWrapper>
+
+             <ScrollAnimationWrapper animationType="fade-up">
+              <div className="text-center mb-8">
+                <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
+                  Sonstiges
+                </h2>
+              </div>
+            </ScrollAnimationWrapper>
+
+            <ScrollAnimationWrapper animationType="fade-up">
+              <div className="text-center mb-8">
+                <p className="text-gray-700 leading-relaxed">
+                    <a href="https://brutkasten.com/artikel/healthiq-mci-innsbruck-studenten-entwickeln-plattform-fuer-ein-vernetztes-gesundheitswesen/10" target="_blank">brutkasten-Artikel über HealthiQ</a>
+                </p>
+                 <p className="text-gray-700 leading-relaxed">
+                    <a href="https://www.mci.edu/de/news-filter/37-studiengaenge/161-news-sozial-gesundheits-public-management/6612-aus-dem-studium-zur-gruendungsidee" target="_blank">MCI-Artikel über HealthiQ</a>
+                </p>
+              </div>
+            </ScrollAnimationWrapper>
+            
           </div>
         </div>
       </section>
