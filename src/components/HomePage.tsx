@@ -659,7 +659,7 @@ const HomePage: React.FC = () => {
             </ScrollAnimationWrapper>
 
              {/* Subtle Divider */}
-      <div className="container mx-auto px-6">
+      <div className="container mx-auto px-6 padding: 10px 0 0 0;">
         <div className="h-px bg-gray-200 opacity-50 max-w-6xl mx-auto"></div>
       </div>
             
@@ -684,7 +684,7 @@ const HomePage: React.FC = () => {
           >
             <div className="flex items-start gap-4">
               <div className="shrink-0 h-12 w-12 rounded-lg bg-gray-100 flex items-center justify-center overflow-hidden">
-                <img src="/media/logos/brutkasten.png" alt="Brutkasten" className="h-8 w-8 object-contain" />
+                <img src="/brutkasten__logo.png" alt="Brutkasten" className="h-8 w-8 object-contain" />
               </div>
               <div className="min-w-0">
                 <div className="text-xs uppercase tracking-wide text-gray-500">Brutkasten</div>
@@ -717,7 +717,7 @@ const HomePage: React.FC = () => {
           >
             <div className="flex items-start gap-4">
               <div className="shrink-0 h-12 w-12 rounded-lg bg-gray-100 flex items-center justify-center overflow-hidden">
-                <img src="/media/logos/mci.png" alt="MCI" className="h-8 w-8 object-contain" />
+                <img src="/MCI-Logo.svg.png" alt="MCI" className="h-8 w-8 object-contain" />
               </div>
               <div className="min-w-0">
                 <div className="text-xs uppercase tracking-wide text-gray-500">MCI – Management Center Innsbruck</div>
