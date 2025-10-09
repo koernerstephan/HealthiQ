@@ -659,27 +659,84 @@ const HomePage: React.FC = () => {
             </ScrollAnimationWrapper>
 
              <ScrollAnimationWrapper animationType="fade-up">
-              <div className="text-center mb-8">
-                <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4 pt-4">
-                  Presse &amp; Artikel über HealthiQ
-                </h2>
-              </div>
-            </ScrollAnimationWrapper>
+        <div className="text-center mb-8">
+          <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4 pt-4">
+            Presse &amp; Artikel über HealthiQ
+          </h2>
+          <p className="text-gray-600">Medienberichte &amp; Veröffentlichungen.</p>
+        </div>
+      </ScrollAnimationWrapper>
 
-            <ScrollAnimationWrapper animationType="fade-up">
-              <div className="text-center mb-8">
-                <p className="text-gray-700 leading-relaxed border-gray-200 rounded-2xl">
-                  Brutkasten<br />
-                  "HealthiQ: MCI-Innsbruck-Studenten entwickeln Plattform für vernetztes Gesundheitswesen" <br />
-                    <a href="https://brutkasten.com/artikel/healthiq-mci-innsbruck-studenten-entwickeln-plattform-fuer-ein-vernetztes-gesundheitswesen/10" target="_blank">&rarr; zum Artikel</a>
-                </p>
-                 <p className="text-gray-700 leading-relaxed border-gray-200 rounded-2xl">
-                   MCI - Management Center Innsbruck<br />
-                   "Aus dem Studium zur Gründungsidee"<br />
-                    <a href="https://www.mci.edu/de/news-filter/37-studiengaenge/161-news-sozial-gesundheits-public-management/6612-aus-dem-studium-zur-gruendungsidee" target="_blank">&rarr; zum Artikel</a>
-                </p>
+      <ScrollAnimationWrapper animationType="fade-up">
+        {/* Grid mit Karten */}
+        <div className="grid gap-5 sm:grid-cols-2">
+          {/* Karte 1: Brutkasten */}
+          <a
+            href="https://brutkasten.com/artikel/healthiq-mci-innsbruck-studenten-entwickeln-plattform-fuer-ein-vernetztes-gesundheitswesen/10"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group block rounded-2xl border border-gray-200 bg-white p-5 shadow-sm transition-all duration-200 hover:shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-teal-500"
+          >
+            <div className="flex items-start gap-4">
+              <div className="shrink-0 h-12 w-12 rounded-lg bg-gray-100 flex items-center justify-center overflow-hidden">
+                <img src="/media/logos/brutkasten.png" alt="Brutkasten" className="h-8 w-8 object-contain" />
               </div>
-            </ScrollAnimationWrapper>
+              <div className="min-w-0">
+                <div className="text-xs uppercase tracking-wide text-gray-500">Brutkasten</div>
+                <h3 className="mt-1 text-base font-semibold text-gray-900">
+                  HealthiQ: MCI-Innsbruck-Studenten entwickeln Plattform für vernetztes Gesundheitswesen
+                </h3>
+                <span className="mt-2 inline-flex items-center text-sm font-medium text-teal-700">
+                  Zum Artikel lesen
+                  <svg
+                    className="ml-1 h-4 w-4 transition-colors group-hover:text-teal-800"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                    aria-hidden="true"
+                  >
+                    <path d="M12.5 2a.75.75 0 0 0 0 1.5h2.69l-6.97 6.97a.75.75 0 1 0 1.06 1.06l6.97-6.97V7.5a.75.75 0 0 0 1.5 0V2.75A.75.75 0 0 0 16.75 2h-4.25z" />
+                    <path d="M5 4.5A1.5 1.5 0 0 0 3.5 6v9A1.5 1.5 0 0 0 5 16.5h9a.5.5 0 0 0 .5-.5V11a.75.75 0 0 0-1.5 0v4a.5.5 0 0 1-.5.5H5a.5.5 0 0 1-.5-.5V6a.5.5 0 0 1 .5-.5h4a.75.75 0 0 0 0-1.5H5z" />
+                  </svg>
+                </span>
+              </div>
+            </div>
+          </a>
+
+          {/* Karte 2: MCI */}
+          <a
+            href="https://www.mci.edu/de/news-filter/37-studiengaenge/161-news-sozial-gesundheits-public-management/6612-aus-dem-studium-zur-gruendungsidee"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group block rounded-2xl border border-gray-200 bg-white p-5 shadow-sm transition-all duration-200 hover:shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-teal-500"
+          >
+            <div className="flex items-start gap-4">
+              <div className="shrink-0 h-12 w-12 rounded-lg bg-gray-100 flex items-center justify-center overflow-hidden">
+                <img src="/media/logos/mci.png" alt="MCI" className="h-8 w-8 object-contain" />
+              </div>
+              <div className="min-w-0">
+                <div className="text-xs uppercase tracking-wide text-gray-500">MCI – Management Center Innsbruck</div>
+                <h3 className="mt-1 text-base font-semibold text-gray-900">
+                  Aus dem Studium zur Gründungsidee
+                </h3>
+                <span className="mt-2 inline-flex items-center text-sm font-medium text-teal-700">
+                  Zum Artikel lesen
+                  <svg
+                    className="ml-1 h-4 w-4 transition-colors group-hover:text-teal-800"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                    aria-hidden="true"
+                  >
+                    <path d="M12.5 2a.75.75 0 0 0 0 1.5h2.69l-6.97 6.97a.75.75 0 1 0 1.06 1.06l6.97-6.97V7.5a.75.75 0 0 0 1.5 0V2.75A.75.75 0 0 0 16.75 2h-4.25z" />
+                    <path d="M5 4.5A1.5 1.5 0 0 0 3.5 6v9A1.5 1.5 0 0 0 5 16.5h9a.5.5 0 0 0 .5-.5V11a.75.75 0 0 0-1.5 0v4a.5.5 0 0 1-.5.5H5a.5.5 0 0 1-.5-.5V6a.5.5 0 0 1 .5-.5h4a.75.75 0 0 0 0-1.5H5z" />
+                  </svg>
+                </span>
+              </div>
+            </div>
+          </a>
+        </div>
+      </ScrollAnimationWrapper>
             
           </div>
         </div>
