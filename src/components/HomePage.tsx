@@ -640,11 +640,7 @@ const HomePage: React.FC = () => {
             
             <ScrollAnimationWrapper animationType="fade-up" delay={200}>
               <div className="flex items-center justify-center space-x-12 md:space-x-16">
-                <img 
-                  src="/FFG-Logo.png" 
-                  alt="FFG Logo" 
-                  className="h-16 md:h-20 w-auto opacity-70 hover:opacity-100 transition-opacity duration-300"
-                />
+                
                 <img 
                   src="/MCI-Logo.svg.png" 
                   alt="MCI Logo" 
