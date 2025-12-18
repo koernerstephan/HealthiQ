@@ -63,12 +63,11 @@ const HomePage: React.FC = () => {
             <div className="text-center lg:text-left animate-fade-in">
               <h1 className="text-5xl md:text-7xl font-bold text-gray-900 mb-6 leading-tight tracking-tight">
                 HealthiQ –<br />
-                Damit Versorgung<br />
-                funktioniert.<br />
-                Für alle.
+                Die sichere Gesundheits- <br />
+                community für chronische & psychische Erkrankungen. 
               </h1>
               <h2 className="text-xl md:text-2xl lg:text-3xl text-gray-600 mb-12 max-w-3xl font-light leading-relaxed">
-                Wir bringen Patient:innen, Behandler:innen und das System zusammen – effizient, fair und digital.
+                HealthiQ verbindet Betroffene und Angehörige in einem geschützten digitalen Umfeld – mit strukturiertem Peer-Support, Leitlinienwissen und institutioneller Einbettung
               </h2>
             </div>
           </div>
@@ -115,7 +114,7 @@ const HomePage: React.FC = () => {
                   </div>
                   <h3 className="text-2xl font-bold mb-4">Mission</h3>
                   <p className="text-base leading-relaxed">
-                    Unsere Mission ist es, Patient:innen, Behandler:innen und das Gesundheitssystem auf einer einzigen Plattform zu verbinden – effizient, transparent und nachhaltig. Wir reduzieren Wartezeiten, senken Verwaltungskosten und schaffen echte Entlastung für das medizinische Personal. Dabei steht der Mensch immer im Mittelpunkt.
+                    Wir verbinden, schützen, stärken und begleiten chronisch erkrankte und psychisch belastete Menschen (inkl. Angehörige) – durch sichere, evidenzbasierte und institutionell vernetzte digitale Selbsthilfe, die Peer-Support, Leitlinienwissen und Partnerschaften zusammenführt.
                   </p>
                 </div>
               </ScrollAnimationWrapper>
@@ -131,7 +130,7 @@ const HomePage: React.FC = () => {
                   </div>
                   <h3 className="text-2xl font-bold mb-4">Vision</h3>
                   <p className="text-base leading-relaxed">
-                    Wir gestalten ein digitales Gesundheitssystem, das niemanden zurücklässt. Eine Welt, in der Arzttermine in Sekunden gefunden werden, Praxen optimal ausgelastet sind und das System intelligent Ressourcen steuert. Wir wollen Vorreiter sein – technologisch, gesellschaftlich und ethisch.
+                    Wir werden der zentrale digitale Ort für chronische Erkrankungen im deutschsprachigen Raum – ein Raum, der Lebensqualität verbessert, Patient:innen und ihre Angehörigen zusammenbringt und digitale Menschlichkeit schafft. 
                   </p>
                 </div>
               </ScrollAnimationWrapper>
@@ -146,7 +145,7 @@ const HomePage: React.FC = () => {
                   </div>
                   <h3 className="text-2xl font-bold mb-4">Werte</h3>
                   <p className="text-base leading-relaxed">
-                    Fairness, Transparenz und Innovation sind unser Fundament. Wir handeln verantwortungsvoll mit Daten, denken nachhaltig und arbeiten partnerschaftlich mit allen Stakeholdern. Unser Ziel ist ein Gesundheitssystem, das Vertrauen schafft – für Generationen.
+                    Unsere Werte sind Sicherheit und Schutz durch klare Governance, Evidenz und Orientierung durch Leitlinienbezug, Datenschutz und Vertrauen durch Pseudonymisierung und DSGVO-Konformität sowie Zusammenarbeit zwischen Betroffenen, Expert:innen und Institutionen – wobei der Mensch im Zentrum steht.
                   </p>
                 </div>
               </ScrollAnimationWrapper>
@@ -166,7 +165,7 @@ const HomePage: React.FC = () => {
                   Das Problem: Ein System am Limit.
                 </h2>
                 <p className="text-base md:text-lg leading-relaxed max-w-3xl mx-auto">
-                  Was heute hakt – aus Sicht von Patient:innen, Behandler:innen und dem System.
+                  Die Versorgungslücke treibt Betroffene ins unstrukturierte Internet – ohne Schutz, Orientierung und Qualitätsstandards.
                 </p>
               </div>
             </ScrollAnimationWrapper>
@@ -178,29 +177,28 @@ const HomePage: React.FC = () => {
               <div className="max-w-6xl mx-auto">
                 <WordBubbleCloud bubbles={[
                   // PATIENTS
-                  {label:'Wartezeiten',group:'patients'},{label:'überfüllte Leitungen',group:'patients'},
-                  {label:'keine Termintransparenz',group:'patients'},{label:'Arzt-Odyssee',group:'patients'},
-                  {label:'No-Show-Erinnerung fehlt',group:'patients'},{label:'Sprachbarrieren',group:'patients'},
-                  {label:'Barrierefreiheit',group:'patients'},{label:'Doppeluntersuchungen',group:'patients'},
-                  {label:'Papierformulare',group:'patients'},{label:'unsichere Infos',group:'patients'},
-                  {label:'Notaufnahme-Überlastung',group:'patients'},{label:'digitale Hürden',group:'patients'},
-                  // PROVIDERS
-                  {label:'Telefonstress',group:'providers'},{label:'No-Shows',group:'providers'},
-                  {label:'Kurzfristige Absagen',group:'providers'},{label:'Leerzeiten',group:'providers'},
-                  {label:'Überbuchung',group:'providers'},{label:'Kalender-Chaos',group:'providers'},
-                  {label:'Papier & Ablage',group:'providers'},{label:'Rezept-Abholfahrten',group:'providers'},
-                  {label:'Dokumenten-Handling',group:'providers'},{label:'Abrechnungsaufwand',group:'providers'},
-                  {label:'Personalmangel',group:'providers'},{label:'Burnout-Risiko',group:'providers'},
-                  {label:'Insellösungen',group:'providers'},{label:'schwache Online-Sichtbarkeit',group:'providers'},
-                  {label:'zu wenige Bewertungen',group:'providers'},
-                  // POLICY / SYSTEM
-                  {label:'fehlende Versorgungsdaten',group:'policy'},{label:'Steuerungsblindflug',group:'policy'},
-                  {label:'Versorgungslücken',group:'policy'},{label:'Stadt-Land-Gefälle',group:'policy'},
-                  {label:'ineffiziente Mittelverwendung',group:'policy'},{label:'CO₂-Emissionen',group:'policy'},
-                  {label:'Papierverbrauch',group:'policy'},{label:'Fahrten & Stau',group:'policy'},
-                  {label:'fehlende Schnittstellen',group:'policy'},{label:'fragmentierte IT',group:'policy'},
-                  {label:'Datensilos',group:'policy'},{label:'keine Echtzeit',group:'policy'},
-                  {label:'Qualität ohne Transparenz',group:'policy'}
+                  {label:'Wartezeiten',group:'patients'},
+                  {label:'Kurztermine',group:'patients'},
+                  {label:'Überlastung',group:'patients'},
+                  {label:'Fragmentierung',group:'patients'},
+                  {label:'Informationsflut',group:'patients'},
+                  {label:'Fehlinformation',group:'patients'},
+                  {label:'Unmoderiert',group:'patients'},
+                  {label:'Social-Media',group:'patients'},
+                  {label:'Risikoräume',group:'patients'},
+                  {label:'Vulnerabilität',group:'patients'},
+                  {label:'Unsicherheit',group:'patients'},
+                  {label:'Qualitätsmangel',group:'patients'},
+                  {label:'Orientierungslosigkeit',group:'patients'},
+                  {label:'Intransparenz',group:'patients'},
+                  {label:'Kommerzialisierung',group:'patients'},
+                  {label:'Datenschutzrisiken',group:'patients'},
+                  {label:'Stigmatisierung',group:'patients'},
+                  {label:'Isolation',group:'patients'},
+                  {label:'Fehlberatung',group:'patients'},
+                  {label:'Pseudomedizin',group:'patients'},
+                  {label:'Vertrauensverlust',group:'patients'},
+                  {label:'Überforderung',group:'patients'}
                 ]} />
               </div>
             </ScrollAnimationWrapper>
@@ -216,15 +214,14 @@ const HomePage: React.FC = () => {
                 Unsere Lösung: HealthiQ.
               </h2>
               <p className="text-lg md:text-xl text-stone-700 leading-relaxed mt-4">
-                HealthiQ verbindet Patient:innen, Behandler:innen und das System auf einer Plattform. 
-                Echtzeit-Suche & Wartelisten für Patient:innen, automatisierte Terminorganisation & Sichtbarkeit für Praxen, 
-                transparente Versorgungsdaten & Steuerungs-Insights für Politik und Kassen. 
-                Ergebnis: weniger Wartezeiten, weniger No-Shows, weniger Papier – mehr Versorgung.
+                HealthiQ ist die erste evidenzbasierte, DSGVO-konforme Gesundheitscommunity im DACH-Raum, die Menschen
+                mit chronischen und psychischen Erkrankungen in einem sicheren digitalen Umfeld verbindet – als 
+                vertrauenswürdige Infrastruktur zwischen Versorgungssystem, klassischer Selbsthilfe und unstrukturiertem Internet.
               </p>
               <div className="mt-8">
                 <a
                   href="#pillars"
-                  className="inline-block bg-healthiq-primary text-healthiq-background hover:bg-healthiq-secondary px-6 py-3 rounded-md font-semibold transition-all duration-300 hover:scale-105"
+                  className="hidden inline-block bg-healthiq-primary text-healthiq-background hover:bg-healthiq-secondary px-6 py-3 rounded-md font-semibold transition-all duration-300 hover:scale-105"
                   onClick={(e) => {
                     e.preventDefault();
                     const element = document.querySelector('#pillars');
@@ -274,7 +271,7 @@ const HomePage: React.FC = () => {
       </section>
 
       {/* Pillars Section */}
-      <section id="pillars" className="py-20 bg-white">
+      <section id="pillars" className="hidden py-20 bg-white">
         <div className="container mx-auto px-6">
           <div className="max-w-6xl mx-auto">
             <ScrollAnimationWrapper animationType="fade-up">
@@ -400,12 +397,18 @@ const HomePage: React.FC = () => {
                   Wirkung, die zählt.
                 </h2>
                 <p className="text-xl text-stone-700 max-w-4xl mx-auto leading-relaxed">
-                  HealthiQ spart Zeit, senkt Kosten, reduziert Emissionen und verbessert die Versorgung – belegbar, skalierbar, nachhaltig.
+                  HealthiQ schafft einen sicheren, evidenzbasierten Raum, der die Lücke zwischen Versorgung, Alltag und unstrukturiertem 
+                  Internet schließt: Betroffene finden Orientierung, verständliches Leitlinienwissen und vertrauenswürdigen Austausch, 
+                  statt Informationsflut und Risiko-Communities. So werden Krankheitsbewältigung und Selbstmanagement gestärkt – mit 
+                  messbaren Effekten wie besserer Lebensqualität, höherer Selbstwirksamkeit und weniger depressiven Symptomen; 
+                  gleichzeitig kann das Versorgungssystem entlastet werden. 
+                  Für Angehörige bedeutet die Plattform Austausch, Entlastung und praxisnahe Informationen; für Institutionen einen 
+                  sicheren digitalen Kommunikations- und Begleitkanal, der datenschutz- und regelkonform ist.
                 </p>
               </div>
             </ScrollAnimationWrapper>
             
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
+            <div className="hidden grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
               {/* No-Shows Reduktion */}
               <ScrollAnimationWrapper animationType="scale" delay={100}>
                 <div className="bg-white rounded-2xl p-8 shadow-sm hover:shadow-lg transition-shadow duration-300 border border-stone-200 text-center">
@@ -763,8 +766,7 @@ const HomePage: React.FC = () => {
                   Kontakt aufnehmen
                 </h2>
                 <p className="text-xl text-stone-200 max-w-4xl mx-auto leading-relaxed">
-                  Du willst HealthiQ in deiner Praxis, deinem Netzwerk oder deinem System?<br />
-                  Lass uns sprechen. Gemeinsam gestalten wir das Gesundheitssystem von morgen.
+                  Du möchtest auch Teil der HealthiQ Community sein? Dann melde dich bei uns.
                 </p>
               </div>
             </ScrollAnimationWrapper>
@@ -856,7 +858,7 @@ const HomePage: React.FC = () => {
                     
                     <div className="text-center pt-4">
                       <p className="text-stone-300 text-sm leading-relaxed">
-                        Wir freuen uns auf das Gespräch und darauf, gemeinsam die Zukunft der Gesundheitsversorgung zu gestalten.
+                        Wir freuen uns auf das Gespräch und darauf, HealthiQ gemeinsam weiterzuentwickeln.
                       </p>
                     </div>
                   </div>

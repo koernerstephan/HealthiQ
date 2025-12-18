@@ -41,7 +41,7 @@ const Footer: React.FC = () => {
                 className="h-14 w-auto"
               />
               <p className="text-healthiq-background/90">
-                Die Plattform für smarte Arzttermine.
+                Die sichere Gesundheitscommunity.
               </p>
             </div>
           </div>
