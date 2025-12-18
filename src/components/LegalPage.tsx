@@ -74,7 +74,7 @@ const LegalPage: React.FC = () => {
                       </div>
                       <div className="flex items-center space-x-2">
                         <Mail className="w-4 h-4 text-healthiq-primary" />
-                        <span>benedikt.hochmuth@icloud.com</span>
+                        <span>benedikt.hochmuth@healthiq.at</span>
                       </div>
                       <div className="flex items-center space-x-2">
                         <Phone className="w-4 h-4 text-healthiq-primary" />
@@ -82,7 +82,7 @@ const LegalPage: React.FC = () => {
                       </div>
                       <div className="flex items-center space-x-2">
                         <Mail className="w-4 h-4 text-healthiq-primary" />
-                        <span>stkoerner@outlook.com</span>
+                        <span>stephan.koerner@healthiq.at</span>
                       </div>
                     </div>
                   </div>
@@ -185,7 +185,7 @@ const LegalPage: React.FC = () => {
                     </div>
                     <div className="flex items-center space-x-2">
                       <Mail className="w-4 h-4 text-healthiq-primary" />
-                      <span>benedikt.hochmuth@icloud.com</span>
+                      <span>benedikt.hochmuth@healthiq.at</span>
                     </div>
                   </div>
                 </div>
@@ -270,7 +270,7 @@ const LegalPage: React.FC = () => {
                     <p className="font-semibold">Benedikt Hochmuth</p>
                     <div className="flex items-center space-x-2">
                       <Mail className="w-4 h-4 text-healthiq-primary" />
-                      <span>benedikt.hochmuth@icloud.com</span>
+                      <span>benedikt.hochmuth@healthiq.at</span>
                     </div>
                   </div>
                 </div>

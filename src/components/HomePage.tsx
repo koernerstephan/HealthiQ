@@ -821,13 +821,13 @@ const HomePage: React.FC = () => {
                           +43 676 3859331
                         </a>
                         <a 
-                          href="mailto:stkoerner@outlook.com"
+                          href="mailto:stephan.koerner@healthiq.at"
                           className="flex items-center justify-center text-stone-200 hover:text-stone-50 transition-colors duration-200"
                         >
                           <svg className="w-5 h-5 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                           </svg>
-                          stkoerner@outlook.com
+                          stephan.koerner@healthiq.at
                         </a>
                       </div>
                     </div>
@@ -844,7 +844,7 @@ const HomePage: React.FC = () => {
                   
                   <div className="space-y-6 flex-grow flex flex-col justify-center">
                     <a 
-                      href="mailto:benedikt.hochmuth@icloud.com,stkoerner@outlook.com?subject=HealthiQ%20Interesse&body=Hallo%20Benedikt%20und%20Stephan,%0A%0Aich%20interessiere%20mich%20für%20HealthiQ%20und%20würde%20gerne%20mehr%20erfahren.%0A%0AViele%20Grüße"
+                      href="mailto:benedikt.hochmuth@healthiq.at,stephan.koerner@healthiq.at?subject=HealthiQ%20Interesse&body=Hallo%20Benedikt%20und%20Stephan,%0A%0Aich%20interessiere%20mich%20für%20HealthiQ%20und%20würde%20gerne%20mehr%20erfahren.%0A%0AViele%20Grüße"
                       className="w-full group px-8 py-4 bg-stone-50 text-stone-600 rounded-xl font-semibold text-lg hover:bg-stone-100 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl flex items-center justify-center"
                     >
                       <svg className="w-6 h-6 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
