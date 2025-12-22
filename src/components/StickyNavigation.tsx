@@ -8,7 +8,6 @@ const StickyNavigation: React.FC = () => {
   const menuItems = [
     { label: 'HealthiQ', href: '#hero-section' },
     { label: 'Problem & Lösung', href: '#problem-solution' },
-    { label: 'Säulen', href: '#pillars' },
     { label: 'Wirkung', href: '#impact' },
     { label: 'Über uns', href: '#about-us' },
     { label: 'Kontakt', href: '#contact' },

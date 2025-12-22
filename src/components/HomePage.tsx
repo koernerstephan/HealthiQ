@@ -61,16 +61,20 @@ const HomePage: React.FC = () => {
         <div className="container mx-auto px-6 py-20 flex items-center min-h-screen">
           <div className="w-full max-w-4xl">
             <div className="text-center lg:text-left animate-fade-in">
-              <h1 className="text-5xl md:text-7xl font-bold text-gray-900 mb-6 leading-tight tracking-tight">
+              <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6 leading-tight tracking-tight">
                 HealthiQ –<br />
                 Die sichere Gesundheitscommunity<br />
                 für chronische und psychische Erkrankungen. 
               </h1>
-              <h2 className="text-xl md:text-2xl lg:text-3xl text-gray-600 mb-12 max-w-3xl font-light leading-relaxed">
+              <h2 className="text-xl md:text-2xl lg:text-3xl text-gray-600 mb-12 max-w-3xl font-light leading-relaxed pt-1">
                 HealthiQ verbindet Betroffene und Angehörige in einem geschützten digitalen Umfeld.
                 Mit strukturiertem Peer Support, klarer Safety und Governance und verlässlichen
                 Informationen von Fachgesellschaften und Institutionen.
               </h2>
+              
+              {/* <span className="m-2 inline-flex items-center gap-x-1.5 py-1.5 px-3 rounded-full text-xs font-medium border border-gray-800 text-gray-800">DSGVO konform und pseudonymisiert</span>
+              <span className="inline-flex items-center gap-x-1.5 py-1.5 px-3 rounded-full text-xs font-medium border border-gray-500 text-gray-500">DACH Hosting und europäischer Rechtsrahmen</span>
+              <span className="m-2 inline-flex items-center gap-x-1.5 py-1.5 px-3 rounded-full text-xs font-medium border border-gray-800 text-gray-800">Safety und Governance statt Risiko Foren</span> */}
             </div>
           </div>
         </div>
@@ -153,10 +157,34 @@ const HomePage: React.FC = () => {
                     </svg>
                   </div>
                   <h3 className="text-2xl font-bold mb-4">Werte</h3>
-                  <p className="text-base leading-relaxed">
+
+                  <h4 className="text-1xl font-bold text-left" >Sicherheit</h4>
+                  <p className="text-base leading-relaxed text-left pt-2">
                     Gesundheitsbezogener Austausch braucht Schutz.
                     HealthiQ setzt auf klare Regeln, Safety Mechanismen und Governance statt ungefilterter
                     Inhalte und Risiko Dynamiken.  
+                  </p>
+
+                  <h4 className="text-1xl font-bold text-left pt-4" >Datenschutz</h4>
+                  <p className="text-base leading-relaxed text-left pt-2">
+                    Privatsphäre ist Voraussetzung für Offenheit.
+                    HealthiQ ist DSGVO konform, pseudonymisiert. Daten gehören den Nutzer:innen, nicht
+                    der Plattform.
+                  </p>
+
+                  <h4 className="text-1xl font-bold text-left pt-4" >Qualität</h4>
+                  <p className="text-base leading-relaxed text-left pt-2">
+                    Information schafft nur dann Sicherheit, wenn sie verlässlich ist.
+                    HealthiQ arbeitet mit Fachgesellschaften, Organisationen und Institutionen zusammen,
+                    um geprüfte Inhalte und Materialien bereitzustellen.
+                  </p>
+
+                  <h4 className="text-1xl font-bold text-left pt-4" >Zusammenarbeit</h4>
+                  <p className="text-base leading-relaxed text-left pt-2">
+                    Gesundheit ist Teamarbeit.
+                    HealthiQ bringt Betroffene, Angehörige und Institutionen in einem strukturierten
+                    digitalen Raum zusammen und stärkt so gegenseitiges Verständnis und nachhaltige
+                    Unterstützung.
                   </p>
                 </div>
               </ScrollAnimationWrapper>
@@ -753,7 +781,7 @@ const HomePage: React.FC = () => {
             Advisory Board
           </h2>
           <p className="text-gray-600">
-            Wir werden flankiert von starkem advisory board aus politik, medizin, unternehmertun, wissenschaft,<br/>
+            Wir werden flankiert von starkem Advisory Board aus Politik, Medizin, Unternehmenstun, Wissenschaft,
             Technologie, Recht, Medizin, Forschung und Wirtschaft.
           </p>
         </div>
@@ -923,7 +951,7 @@ const HomePage: React.FC = () => {
                     {/* Benedikt Hochmuth */}
                     <div className="text-center">
                       <h4 className="text-xl font-semibold text-stone-50 mb-4">
-                        Benedikt Hochmuth
+                        Benedikt Hochmuth - CEO
                       </h4>
                       <div className="space-y-3">
                         <a 
@@ -948,7 +976,7 @@ const HomePage: React.FC = () => {
                     </div>
                     
                     {/* Stephan Körner */}
-                    <div className="text-center">
+                    {/* <div className="text-center">
                       <h4 className="text-xl font-semibold text-stone-50 mb-4">
                         Stephan Körner
                       </h4>
@@ -972,7 +1000,7 @@ const HomePage: React.FC = () => {
                           stephan.koerner@healthiq.at
                         </a>
                       </div>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </ScrollAnimationWrapper>
