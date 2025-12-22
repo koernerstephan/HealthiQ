@@ -951,7 +951,7 @@ const HomePage: React.FC = () => {
                     {/* Benedikt Hochmuth */}
                     <div className="text-center">
                       <h4 className="text-xl font-semibold text-stone-50 mb-4">
-                        Benedikt Hochmuth
+                        Benedikt Hochmuth - CEO
                       </h4>
                       <div className="space-y-3">
                         <a 
@@ -976,7 +976,7 @@ const HomePage: React.FC = () => {
                     </div>
                     
                     {/* Stephan Körner */}
-                    <div className="text-center">
+                    {/* <div className="text-center">
                       <h4 className="text-xl font-semibold text-stone-50 mb-4">
                         Stephan Körner
                       </h4>
@@ -1000,7 +1000,7 @@ const HomePage: React.FC = () => {
                           stephan.koerner@healthiq.at
                         </a>
                       </div>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </ScrollAnimationWrapper>
