@@ -7,9 +7,10 @@ interface BubbleItem {
 
 interface WordBubbleCloudProps {
   bubbles: BubbleItem[];
+  justify?: string
 }
 
-const WordBubbleCloud: React.FC<WordBubbleCloudProps> = ({ bubbles }) => {
+const WordBubbleCloud: React.FC<WordBubbleCloudProps> = ({ bubbles, justify = 'center' }) => {
   const getSizeClass = (index: number) => {
     const sizeClasses = ['text-sm', 'text-base', 'text-lg', 'text-xl'];
     return sizeClasses[index % 4];
@@ -24,11 +25,23 @@ const WordBubbleCloud: React.FC<WordBubbleCloudProps> = ({ bubbles }) => {
     return index % 3 === 0 ? 'font-semibold' : 'font-normal';
   };
 
+  const getJustify = () => {
+    const map: Record<string, string> = {
+      start: 'justify-start',
+      center: 'justify-center',
+      end: 'justify-end',
+      between: 'justify-between',
+      around: 'justify-around',
+      evenly: 'justify-evenly',
+    };
+    return map[justify] || 'justify-center';
+  }
+
   return (
     <div 
-      className="flex flex-wrap gap-3 md:gap-4 items-center justify-center"
+      className={`flex flex-wrap gap-3 md:gap-4 items-center ${getJustify()}`}
       role="list"
-    >
+      >
       {bubbles.map((label, index) => (
         <div
           key={`${label.label}-${index}`}
