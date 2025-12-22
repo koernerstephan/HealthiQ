@@ -63,12 +63,13 @@ const HomePage: React.FC = () => {
             <div className="text-center lg:text-left animate-fade-in">
               <h1 className="text-5xl md:text-7xl font-bold text-gray-900 mb-6 leading-tight tracking-tight">
                 HealthiQ –<br />
-                Damit Versorgung<br />
-                funktioniert.<br />
-                Für alle.
+                Die sichere Gesundheitscommunity<br />
+                für chronische und psychische Erkrankungen. 
               </h1>
               <h2 className="text-xl md:text-2xl lg:text-3xl text-gray-600 mb-12 max-w-3xl font-light leading-relaxed">
-                Wir bringen Patient:innen, Behandler:innen und das System zusammen – effizient, fair und digital.
+                HealthiQ verbindet Betroffene und Angehörige in einem geschützten digitalen Umfeld.
+                Mit strukturiertem Peer Support, klarer Safety und Governance und verlässlichen
+                Informationen von Fachgesellschaften und Institutionen.
               </h2>
             </div>
           </div>
@@ -94,7 +95,7 @@ const HomePage: React.FC = () => {
                   Vision, Mission & Werte
                 </h2>
                 <p className="text-xl text-healthiq-text max-w-3xl mx-auto leading-relaxed">
-                  Wir denken das Gesundheitswesen neu – fair, digital und für alle.
+                  Wir denken das Gesundheitswesen neu.
                 </p>
               </div>
             </ScrollAnimationWrapper>
@@ -115,7 +116,11 @@ const HomePage: React.FC = () => {
                   </div>
                   <h3 className="text-2xl font-bold mb-4">Mission</h3>
                   <p className="text-base leading-relaxed">
-                    Unsere Mission ist es, Patient:innen, Behandler:innen und das Gesundheitssystem auf einer einzigen Plattform zu verbinden – effizient, transparent und nachhaltig. Wir reduzieren Wartezeiten, senken Verwaltungskosten und schaffen echte Entlastung für das medizinische Personal. Dabei steht der Mensch immer im Mittelpunkt.
+                    HealthiQ ermöglicht geschützten digitalen Austausch für Menschen mit chronischen
+                    und psychischen Erkrankungen.
+                    Wir verbinden strukturierten Peer Support mit verlässlichen Informationen und
+                    Materialien von Fachgesellschaften und Institutionen und schaffen so Orientierung,
+                    Entlastung und Unterstützung im Alltag.  
                   </p>
                 </div>
               </ScrollAnimationWrapper>
@@ -131,7 +136,10 @@ const HomePage: React.FC = () => {
                   </div>
                   <h3 className="text-2xl font-bold mb-4">Vision</h3>
                   <p className="text-base leading-relaxed">
-                    Wir gestalten ein digitales Gesundheitssystem, das niemanden zurücklässt. Eine Welt, in der Arzttermine in Sekunden gefunden werden, Praxen optimal ausgelastet sind und das System intelligent Ressourcen steuert. Wir wollen Vorreiter sein – technologisch, gesellschaftlich und ethisch.
+                    Wir schaffen den zentralen digitalen Ort für chronische und psychische Erkrankungen im
+                    deutschsprachigen Raum.
+                    Einen sicheren Raum, der Betroffene und Angehörige verbindet, Orientierung gibt und
+                    digitale Selbsthilfe auf ein neues Qualitätsniveau hebt.
                   </p>
                 </div>
               </ScrollAnimationWrapper>
@@ -146,7 +154,9 @@ const HomePage: React.FC = () => {
                   </div>
                   <h3 className="text-2xl font-bold mb-4">Werte</h3>
                   <p className="text-base leading-relaxed">
-                    Fairness, Transparenz und Innovation sind unser Fundament. Wir handeln verantwortungsvoll mit Daten, denken nachhaltig und arbeiten partnerschaftlich mit allen Stakeholdern. Unser Ziel ist ein Gesundheitssystem, das Vertrauen schafft – für Generationen.
+                    Gesundheitsbezogener Austausch braucht Schutz.
+                    HealthiQ setzt auf klare Regeln, Safety Mechanismen und Governance statt ungefilterter
+                    Inhalte und Risiko Dynamiken.  
                   </p>
                 </div>
               </ScrollAnimationWrapper>
@@ -163,10 +173,13 @@ const HomePage: React.FC = () => {
             <ScrollAnimationWrapper animationType="fade-up">
               <div className="max-w-6xl mx-auto text-center">
                 <h2 className="text-3xl md:text-4xl font-extrabold mb-4">
-                  Das Problem: Ein System am Limit.
+                  Das Problem: Gesundheitsversorgung endet oft dort, wo der Alltag beginnt.
                 </h2>
                 <p className="text-base md:text-lg leading-relaxed max-w-3xl mx-auto">
-                  Was heute hakt – aus Sicht von Patient:innen, Behandler:innen und dem System.
+                  Das Versorgungssystem ist auf Diagnosen und Termine ausgerichtet.
+                  Menschen mit chronischen und psychischen Erkrankungen brauchen jedoch
+                  kontinuierliche Orientierung, Austausch und Unterstützung im Alltag. Genau dort
+                  entsteht eine Lücke.
                 </p>
               </div>
             </ScrollAnimationWrapper>
@@ -178,30 +191,39 @@ const HomePage: React.FC = () => {
               <div className="max-w-6xl mx-auto">
                 <WordBubbleCloud bubbles={[
                   // PATIENTS
-                  {label:'Wartezeiten',group:'patients'},{label:'überfüllte Leitungen',group:'patients'},
-                  {label:'keine Termintransparenz',group:'patients'},{label:'Arzt-Odyssee',group:'patients'},
-                  {label:'No-Show-Erinnerung fehlt',group:'patients'},{label:'Sprachbarrieren',group:'patients'},
-                  {label:'Barrierefreiheit',group:'patients'},{label:'Doppeluntersuchungen',group:'patients'},
-                  {label:'Papierformulare',group:'patients'},{label:'unsichere Infos',group:'patients'},
-                  {label:'Notaufnahme-Überlastung',group:'patients'},{label:'digitale Hürden',group:'patients'},
-                  // PROVIDERS
-                  {label:'Telefonstress',group:'providers'},{label:'No-Shows',group:'providers'},
-                  {label:'Kurzfristige Absagen',group:'providers'},{label:'Leerzeiten',group:'providers'},
-                  {label:'Überbuchung',group:'providers'},{label:'Kalender-Chaos',group:'providers'},
-                  {label:'Papier & Ablage',group:'providers'},{label:'Rezept-Abholfahrten',group:'providers'},
-                  {label:'Dokumenten-Handling',group:'providers'},{label:'Abrechnungsaufwand',group:'providers'},
-                  {label:'Personalmangel',group:'providers'},{label:'Burnout-Risiko',group:'providers'},
-                  {label:'Insellösungen',group:'providers'},{label:'schwache Online-Sichtbarkeit',group:'providers'},
-                  {label:'zu wenige Bewertungen',group:'providers'},
-                  // POLICY / SYSTEM
-                  {label:'fehlende Versorgungsdaten',group:'policy'},{label:'Steuerungsblindflug',group:'policy'},
-                  {label:'Versorgungslücken',group:'policy'},{label:'Stadt-Land-Gefälle',group:'policy'},
-                  {label:'ineffiziente Mittelverwendung',group:'policy'},{label:'CO₂-Emissionen',group:'policy'},
-                  {label:'Papierverbrauch',group:'policy'},{label:'Fahrten & Stau',group:'policy'},
-                  {label:'fehlende Schnittstellen',group:'policy'},{label:'fragmentierte IT',group:'policy'},
-                  {label:'Datensilos',group:'policy'},{label:'keine Echtzeit',group:'policy'},
-                  {label:'Qualität ohne Transparenz',group:'policy'}
+                  {label:'Wartezeiten',group:'patients'},
+                  {label:'Kurztermine',group:'patients'},
+                  {label:'Überlastung',group:'patients'},
+                  {label:'Lange Wartezeiten und kurze Kontakte',group:'patients'},
+                  {label:'Fragmentierung',group:'patients'},
+                  {label:'Fehlende Begleitung im Alltag',group:'patients'},
+                  {label:'Informationsflut',group:'patients'},
+                  {label:'Fehlinformation',group:'patients'},
+                  {label:'Unmoderiert',group:'patients'},
+                  {label:'Social-Media',group:'patients'},
+                  {label:'Informationsflut ohne Einordnung',group:'patients'},
+                  {label:'Risikoräume',group:'patients'},
+                  {label:'Vulnerabilität',group:'patients'},
+                  {label:'Unsicherheit',group:'patients'},
+                  {label:'Ungeschützte Online Räume',group:'patients'},
+                  {label:'Qualitätsmangel',group:'patients'},
+                  {label:'Orientierungslosigkeit',group:'patients'},
+                  {label:'Intransparenz',group:'patients'},
+                  {label:'Kommerzialisierung',group:'patients'},
+                  {label:'Datenschutzrisiken',group:'patients'},
+                  {label:'Datenschutz und Privatsphäre Risiken',group:'patients'},
+                  {label:'Stigmatisierung',group:'patients'},
+                  {label:'Isolation',group:'patients'},
+                  {label:'Überforderung von Betroffenen und Angehörigen',group:'patients'},
+                  {label:'Fehlberatung',group:'patients'},
+                  {label:'Pseudomedizin',group:'patients'},
+                  {label:'Fehlende Verbindung zwischen Selbsthilfe und Versorgungssystem',group:'patients'},
+                  {label:'Vertrauensverlust',group:'patients'},
+                  {label:'Überforderung',group:'patients'}
                 ]} />
+                 <p className="text-base md:text-lg leading-relaxed max-w-3xl mx-auto md:py-8">
+                  Ohne Struktur wird Austausch zum Risiko. Ohne Schutz wird Information zur Belastung.
+                </p>
               </div>
             </ScrollAnimationWrapper>
           </div>
@@ -215,16 +237,27 @@ const HomePage: React.FC = () => {
               <h2 className="text-3xl md:text-4xl font-extrabold mb-4">
                 Unsere Lösung: HealthiQ.
               </h2>
+              <h3 className="text-2xl text-gray-900 mb-6">
+                HealthiQ ist die sichere Gesundheitscommunity<br/> 
+                für Austausch, Orientierung und Unterstützung im Alltag.
+              </h3>
               <p className="text-lg md:text-xl text-stone-700 leading-relaxed mt-4">
-                HealthiQ verbindet Patient:innen, Behandler:innen und das System auf einer Plattform. 
-                Echtzeit-Suche & Wartelisten für Patient:innen, automatisierte Terminorganisation & Sichtbarkeit für Praxen, 
-                transparente Versorgungsdaten & Steuerungs-Insights für Politik und Kassen. 
-                Ergebnis: weniger Wartezeiten, weniger No-Shows, weniger Papier – mehr Versorgung.
+                HealthiQ verbindet Betroffene und Angehörige erstmalig in einem geschützten digitalen
+                Umfeld und macht Unterstützung im Alltag wirklich zugänglich. Strukturierter Peer
+                Support trifft auf verlässliche Informationen und Materialien von Fachgesellschaften
+                und Institutionen. Klare Regeln, Safety Mechanismen und Governance sorgen dafür,
+                dass Austausch unterstützt statt überfordert. Zusätzlich bringt HealthiQ Menschen auch
+                außerhalb der App zusammen durch Veranstaltungen, Awareness Formate und
+                vernetzte Angebote mit Partnern.
+              </p>
+              <p className="text-lg md:text-xl text-stone-700 leading-relaxed mt-4">
+                HealthiQ ist keine offene Social Plattform. HealthiQ ist eine kuratierte Infrastruktur, die
+                 ergänzt statt ersetzt und dort Stabilität schafft, wo sonst Chaos entsteht.
               </p>
               <div className="mt-8">
                 <a
                   href="#pillars"
-                  className="inline-block bg-healthiq-primary text-healthiq-background hover:bg-healthiq-secondary px-6 py-3 rounded-md font-semibold transition-all duration-300 hover:scale-105"
+                  className="hidden inline-block bg-healthiq-primary text-healthiq-background hover:bg-healthiq-secondary px-6 py-3 rounded-md font-semibold transition-all duration-300 hover:scale-105"
                   onClick={(e) => {
                     e.preventDefault();
                     const element = document.querySelector('#pillars');
@@ -274,7 +307,7 @@ const HomePage: React.FC = () => {
       </section>
 
       {/* Pillars Section */}
-      <section id="pillars" className="py-20 bg-white">
+      <section id="pillars" className="hidden py-20 bg-white">
         <div className="container mx-auto px-6">
           <div className="max-w-6xl mx-auto">
             <ScrollAnimationWrapper animationType="fade-up">
@@ -400,7 +433,13 @@ const HomePage: React.FC = () => {
                   Wirkung, die zählt.
                 </h2>
                 <p className="text-xl text-stone-700 max-w-4xl mx-auto leading-relaxed">
-                  HealthiQ spart Zeit, senkt Kosten, reduziert Emissionen und verbessert die Versorgung – belegbar, skalierbar, nachhaltig.
+                  HealthiQ schafft einen sicheren, evidenzbasierten Raum, der die Lücke zwischen Versorgung, Alltag und unstrukturiertem 
+                  Internet schließt: Betroffene finden Orientierung, verständliches Leitlinienwissen und vertrauenswürdigen Austausch, 
+                  statt Informationsflut und Risiko-Communities. So werden Krankheitsbewältigung und Selbstmanagement gestärkt – mit 
+                  messbaren Effekten wie besserer Lebensqualität, höherer Selbstwirksamkeit und weniger depressiven Symptomen; 
+                  gleichzeitig kann das Versorgungssystem entlastet werden. 
+                  Für Angehörige bedeutet die Plattform Austausch, Entlastung und praxisnahe Informationen; für Institutionen einen 
+                  sicheren digitalen Kommunikations- und Begleitkanal, der datenschutz- und regelkonform ist.
                 </p>
               </div>
             </ScrollAnimationWrapper>
@@ -414,10 +453,12 @@ const HomePage: React.FC = () => {
                       <path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                     </svg>
                   </div>
-                  <div className="text-4xl font-bold text-stone-900 mb-2">–60 %</div>
-                  <h3 className="text-xl font-semibold text-stone-900 mb-3">weniger No-Shows</h3>
+                  <div className="text-4xl font-bold text-stone-900 mb-2">Strukturierter</div>
+                  <h3 className="text-xl font-semibold text-stone-900 mb-3">Austausch, der wirklich hilft</h3>
                   <p className="text-stone-700 leading-relaxed">
-                    durch Erinnerungen & dynamisches Wartelisten-Matching
+                    Krankheitsräume mit klarer Themenstruktur statt endloser Kommentarstränge. Fragen,
+                    Erfahrungen, Tipps und Ressourcen werden auffindbar und verständlich. Das Ziel ist
+                    nicht mehr Inhalt, sondern besserer Inhalt.
                   </p>
                 </div>
               </ScrollAnimationWrapper>
@@ -426,14 +467,17 @@ const HomePage: React.FC = () => {
               <ScrollAnimationWrapper animationType="scale" delay={200}>
                 <div className="bg-white rounded-2xl p-8 shadow-sm hover:shadow-lg transition-shadow duration-300 border border-stone-200 text-center">
                   <div className="w-16 h-16 bg-stone-600 rounded-full flex items-center justify-center mx-auto mb-6">
-                    <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                     </svg>
                   </div>
-                  <div className="text-4xl font-bold text-stone-900 mb-2">+13.700 €</div>
-                  <h3 className="text-xl font-semibold text-stone-900 mb-3">jährlich eingespart</h3>
+                  <div className="text-4xl font-bold text-stone-900 mb-2">Sicherheit</div>
+                  <h3 className="text-xl font-semibold text-stone-900 mb-3">und Governance als Grundlage</h3>
                   <p className="text-stone-700 leading-relaxed">
-                    pro Assistenzkraft durch digitale Terminorganisation
+                    Gesundheitsbezogener Austausch braucht Schutz. HealthiQ setzt auf klare Regeln,
+                    Rollen, Moderationslogik und Safety Mechanismen, damit sensible Themen nicht
+                    eskalieren, nicht ausarten und nicht gefährlich werden. Das schafft Vertrauen, das man
+                    in offenen Foren nicht bekommt.
                   </p>
                 </div>
               </ScrollAnimationWrapper>
@@ -442,14 +486,17 @@ const HomePage: React.FC = () => {
               <ScrollAnimationWrapper animationType="scale" delay={300}>
                 <div className="bg-white rounded-2xl p-8 shadow-sm hover:shadow-lg transition-shadow duration-300 border border-stone-200 text-center">
                   <div className="w-16 h-16 bg-stone-600 rounded-full flex items-center justify-center mx-auto mb-6">
-                    <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                     </svg>
                   </div>
-                  <div className="text-4xl font-bold text-stone-900 mb-2">–4,5 t CO₂</div>
-                  <h3 className="text-xl font-semibold text-stone-900 mb-3">pro Praxis und Jahr</h3>
+                  <div className="text-4xl font-bold text-stone-900 mb-2">Verlässliche</div>
+                  <h3 className="text-xl font-semibold text-stone-900 mb-3">Informationen und Materialien, patientengerecht</h3>
                   <p className="text-stone-700 leading-relaxed">
-                    durch weniger Fahrten, Papier und Effizienz
+                    Aufklärung, Unterlagen, Links, Programme und Materialien kommen nicht aus dem
+                    Zufall des Internets, sondern von Fachgesellschaften, Organisationen, Kliniken und
+                    weiteren Institutionen, die diese Inhalte gezielt über HealthiQ teilen können.
+                    Patientengerecht formuliert, klar strukturiert, leicht auffindbar.
                   </p>
                 </div>
               </ScrollAnimationWrapper>
@@ -460,14 +507,17 @@ const HomePage: React.FC = () => {
               <ScrollAnimationWrapper animationType="fade-left" delay={400}>
                 <div className="bg-white rounded-2xl p-8 shadow-sm hover:shadow-lg transition-shadow duration-300 border border-stone-200 text-center">
                   <div className="w-16 h-16 bg-stone-600 rounded-full flex items-center justify-center mx-auto mb-6">
-                    <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+                    <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                     </svg>
                   </div>
-                  <div className="text-4xl font-bold text-stone-900 mb-2">Deutlich</div>
-                  <h3 className="text-xl font-semibold text-stone-900 mb-3">höhere Patient:innenzufriedenheit und Compliance</h3>
+                  <div className="text-4xl font-bold text-stone-900 mb-2">Aktivierung</div>
+                  <h3 className="text-xl font-semibold text-stone-900 mb-3">Aktivierung und Community im echten Leben</h3>
                   <p className="text-stone-700 leading-relaxed">
-                    massiv gesteigerte Zufriedenheit durch bessere Erfahrung
+                    HealthiQ ist nicht nur digitaler Austausch. Über Events, Info Abende, Partner
+                    Veranstaltungen und Awareness Formate bringt HealthiQ Menschen zusammen, macht
+                    Angebote sichtbar und hilft, lokale und digitale Unterstützung zu verbinden. Das stärkt
+                    Zugehörigkeit und senkt Hürden.
                   </p>
                 </div>
               </ScrollAnimationWrapper>
@@ -477,13 +527,16 @@ const HomePage: React.FC = () => {
                 <div className="bg-white rounded-2xl p-8 shadow-sm hover:shadow-lg transition-shadow duration-300 border border-stone-200 text-center">
                   <div className="w-16 h-16 bg-stone-600 rounded-full flex items-center justify-center mx-auto mb-6">
                     <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M18 18.72a9.094 9.094 0 003.741-.479 3 3 0 00-4.682-2.72m.94 3.198l.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0112 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 016 18.719m12 0a5.971 5.971 0 00-.941-3.197m0 0A5.995 5.995 0 0012 12.75a5.995 5.995 0 00-5.058 2.772m0 0a3 3 0 00-4.681 2.72 8.986 8.986 0 003.74.477m.94-3.197a5.971 5.971 0 00-.94 3.197M15 6.75a3 3 0 11-6 0 3 3 0 016 0zm6 3a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0zm-13.5 0a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0z" />
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                     </svg>
                   </div>
-                  <div className="text-4xl font-bold text-stone-900 mb-2">Teilhabe fördern</div>
-                  <h3 className="text-xl font-semibold text-stone-900 mb-3">für alle und jeden</h3>
+                  <div className="text-4xl font-bold text-stone-900 mb-2">Orientierung</div>
+                  <h3 className="text-xl font-semibold text-stone-900 mb-3">auf Knopfdruck durch Assistenz</h3>
                   <p className="text-stone-700 leading-relaxed">
-                    Mehrsprachige, barrierefreie Plattform
+                    Ein KI gestützter Erklär und Orientierungs Bot hilft Nutzer:innen, Inhalte schneller zu
+                    finden, Begriffe zu verstehen, passende Themenräume zu entdecken und den nächsten
+                    sinnvollen Schritt zu erkennen. Nicht als Diagnose oder Therapie, sondern als
+                    Navigation und Verständnishilfe.
                   </p>
                 </div>
               </ScrollAnimationWrapper>
@@ -548,12 +601,13 @@ const HomePage: React.FC = () => {
                   Über uns
                 </h2>
                 <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                  Die Köpfe hinter HealthiQ – zwei Gründer mit einer Vision für das Gesundheitswesen von morgen.
+                  Die Köpfe hinter HealthiQ – Vier Gründer. Vier Disziplinen. Eine gemeinsame Mission:
+                  eine sichere digitale Infrastruktur für Menschen, die mit Krankheit leben.
                 </p>
               </div>
             </ScrollAnimationWrapper>
             
-            <div className="grid lg:grid-cols-2 gap-12 items-center">
+            <div className="grid lg:grid-cols-2 gap-12 items-top">
               {/* Team Photo */}
               <ScrollAnimationWrapper animationType="fade-left" delay={200}>
                 <div className="order-2 lg:order-1">
@@ -579,9 +633,19 @@ const HomePage: React.FC = () => {
                     <h3 className="text-2xl font-bold text-gray-900 mb-3">
                       Benedikt Hochmuth
                     </h3>
-                    <p className="text-lg text-gray-600 mb-3 group-hover:text-gray-700 transition-colors duration-300">Co-Founder & CEO</p>
+                    <p className="text-lg text-gray-600 mb-3 group-hover:text-gray-700 transition-colors duration-300">CEO</p>
                     <p className="text-gray-700 leading-relaxed">
-                      Visionärer Stratege mit Erfahrung im Rettungsdienst und HR-Management, verantwortlich für Wachstum, Partnerschaften und die Etablierung von HealthiQ als neuen Standard.
+                      Benedikt verbindet reale Notfallmedizin, militärisch geschulte Führungsstärke und
+                      Erfahrung aus einem hochregulierten Pharma Umfeld. Als Rettungssanitäter und
+                      taktischer Einsatzersthelfer Alpha hat er gelernt, Entscheidungen zu treffen, wenn es
+                      zählt. Bei ViraTherapeutics, einer Tochter von Boehringer Ingelheim, arbeitete er im HR
+                      und Administrationsbereich und kennt Compliance, Datenschutz und komplexe
+                      Stakeholderstrukturen aus erster Hand.  
+                    </p>
+                    <p className="text-gray-700 leading-relaxed">
+                      Heute führt er HealthiQ als strategische Leitfigur. Er verantwortet Vision, Produktfokus,
+                      Partnerschaften und Außenauftritt und hält das Projekt nach innen zusammen und nach
+                      außen klar positioniert.
                     </p>
                     <div className="mt-4 pt-3 border-t border-gray-200 group-hover:border-gray-300 transition-colors duration-300">
                       <div className="flex items-center justify-center text-gray-600 group-hover:text-gray-800 transition-colors duration-300">
@@ -601,9 +665,19 @@ const HomePage: React.FC = () => {
                     <h3 className="text-2xl font-bold text-gray-900 mb-3">
                       Stephan Körner
                     </h3>
-                    <p className="text-lg text-gray-600 mb-3 group-hover:text-gray-700 transition-colors duration-300">Co-Founder & COO</p>
+                    <p className="text-lg text-gray-600 mb-3 group-hover:text-gray-700 transition-colors duration-300">CFO</p>
                     <p className="text-gray-700 leading-relaxed">
-                      Operativer Stratege mit Hintergrund im Gesundheitsmanagement. Verantwortlich für klare Strukturen und reibungslose Umsetzung. Sein Fokus: Operations & Projektsteuerung.
+                      Stephan verantwortet Finanzen, Controlling und Förderlogik von HealthiQ. Er bringt
+                      fundierte Kenntnisse in Betriebswirtschaft, Rechnungswesen und Prozessstruktur mit
+                      und verankert das Projekt wirtschaftlich und juristisch sauber und skalierbar. Durch
+                      seine Ausbildung, sein Studium im Gesundheitsmanagement und seine Erfahrung im
+                      Pflegeumfeld kennt er die Realität des Systems nicht nur aus Tabellen, sondern aus dem
+                      Alltag.  
+                    </p>
+                    <p className="text-gray-700 leading-relaxed">
+                      Als ehemaliger Leistungssportler bringt er Belastbarkeit, Fokus und Teamdisziplin ins
+                      Gründerteam. Er sorgt dafür, dass HealthiQ finanziell stabil wächst und
+                      unternehmerisch jederzeit handlungsfähig bleibt. 
                     </p>
                     <div className="mt-4 pt-3 border-t border-gray-200 group-hover:border-gray-300 transition-colors duration-300">
                       <div className="flex items-center justify-center text-gray-600 group-hover:text-gray-800 transition-colors duration-300">
@@ -614,12 +688,76 @@ const HomePage: React.FC = () => {
                       </div>
                     </div>
                   </button>
+
+                   {/* Lilien Heit */}
+                  <button
+                    className="group bg-gray-50 hover:bg-gray-100 rounded-xl p-6 text-left hover:shadow-md transform hover:scale-102 transition-all duration-300 border border-gray-200 hover:border-gray-300 cursor-pointer w-full flex-1"
+                  >
+                    <h3 className="text-2xl font-bold text-gray-900 mb-3">
+                      Lilien Heit
+                    </h3>
+                    <p className="text-lg text-gray-600 mb-3 group-hover:text-gray-700 transition-colors duration-300">COO</p>
+                    <p className="text-gray-700 leading-relaxed">
+                      Lilien ist das operative Herz von HealthiQ. Sie studiert Humanmedizin und bringt
+                      klinisches Wissen direkt in Produkt und Community ein. Gleichzeitig lebt sie seit Geburt
+                      mit einer chronischen Erkrankung und kennt digitale Selbsthilfe nicht aus der Theorie,
+                      sondern aus über zehn Jahren eigener Erfahrung.
+                    </p>
+                    <p className="text-gray-700 leading-relaxed">
+                      Diese doppelte Perspektive macht sie einzigartig. Sie übersetzt medizinische Logik und
+                      echte Bedürfnisse in funktionierende Strukturen, Community Regeln und Inhalte, die im
+                      Alltag helfen. Lilien sorgt dafür, dass HealthiQ nicht nur richtig gedacht, sondern richtig
+                      gemacht ist
+                    </p>
+                    {/* */}
+                  </button>
+                  
+                   {/* Arnd Klocker */}
+                  <button
+                    className="group bg-gray-50 hover:bg-gray-100 rounded-xl p-6 text-left hover:shadow-md transform hover:scale-102 transition-all duration-300 border border-gray-200 hover:border-gray-300 cursor-pointer w-full flex-1"
+                  >
+                    <h3 className="text-2xl font-bold text-gray-900 mb-3">
+                      Arnd Klocker
+                    </h3>
+                    <p className="text-lg text-gray-600 mb-3 group-hover:text-gray-700 transition-colors duration-300">CTO</p>
+                    <p className="text-gray-700 leading-relaxed">
+                      Arnd ist der technische Anker von HealthiQ. Mit über zwei Jahrzehnten Erfahrung als
+                      Softwarearchitekt, Senior Consultant und Unternehmer entwickelt er Systeme, die nicht
+                      nur funktionieren, sondern tragen. Er verantwortet die gesamte Plattform Architektur mit
+                      Fokus auf Sicherheit, Skalierbarkeit und Datenschutz im DACH Rechtsraum.
+                    </p>
+                    <p className="text-gray-700 leading-relaxed">
+                      Er denkt in Systemen, nicht in Features. Arnd sorgt dafür, dass HealthiQ von Beginn an
+                      so gebaut ist, dass Vertrauen, Wachstum und regulatorische Anforderungen kein
+                      Widerspruch sind. Er ist der ruhige Gegenpol im Team und die Garantie dafür, dass junge
+                      energische Vision technisch Realität wird.
+                    </p>
+                    {/* */}
+                  </button>
+
                 </div>
               </ScrollAnimationWrapper>
             </div>
           </div>
         </div>
       </section>
+
+      {/* Subtle Divider */}
+      <div className="container mx-auto px-6">
+        <div className="h-px bg-gray-200 opacity-50 max-w-6xl mx-auto"></div>
+      </div>
+      
+      <ScrollAnimationWrapper animationType="fade-up">
+        <div className="text-center mb-8">
+          <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4 pt-4">
+            Advisory Board
+          </h2>
+          <p className="text-gray-600">
+            Wir werden flankiert von starkem advisory board aus politik, medizin, unternehmertun, wissenschaft,<br/>
+            Technologie, Recht, Medizin, Forschung und Wirtschaft.
+          </p>
+        </div>
+      </ScrollAnimationWrapper>
 
       {/* Subtle Divider */}
       <div className="container mx-auto px-6">
@@ -669,12 +807,17 @@ const HomePage: React.FC = () => {
               <div className="h-[2px] max-w-6xl opacity-50 bg-gray-200"></div>
             </div>
             
-             <ScrollAnimationWrapper animationType="fade-up">
+      <ScrollAnimationWrapper animationType="fade-up">
         <div className="text-center mb-8">
           <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4 pt-4">
             Presse &amp; Artikel über HealthiQ
           </h2>
-          <p className="text-gray-600">Medienberichte &amp; Veröffentlichungen.</p>
+          <p className="text-gray-600">
+            Die folgenden Artikel entstanden in einer frühen Phase von HealthiQ.
+            Sie dokumentieren den Weg von der ersten gesamt Idee,<br/> eine große Idee
+            
+            zur Revolution des Gesundheitswesen bis hin zur heutigen klar fokussierten HealthiQ Community
+          </p>
         </div>
       </ScrollAnimationWrapper>
 
@@ -763,8 +906,7 @@ const HomePage: React.FC = () => {
                   Kontakt aufnehmen
                 </h2>
                 <p className="text-xl text-stone-200 max-w-4xl mx-auto leading-relaxed">
-                  Du willst HealthiQ in deiner Praxis, deinem Netzwerk oder deinem System?<br />
-                  Lass uns sprechen. Gemeinsam gestalten wir das Gesundheitssystem von morgen.
+                  Du möchtest auch Teil der HealthiQ Community sein? Dann melde dich bei uns.
                 </p>
               </div>
             </ScrollAnimationWrapper>
@@ -844,7 +986,7 @@ const HomePage: React.FC = () => {
                   
                   <div className="space-y-6 flex-grow flex flex-col justify-center">
                     <a 
-                      href="mailto:benedikt.hochmuth@healthiq.at,stephan.koerner@healthiq.at?subject=HealthiQ%20Interesse&body=Hallo%20Benedikt%20und%20Stephan,%0A%0Aich%20interessiere%20mich%20für%20HealthiQ%20und%20würde%20gerne%20mehr%20erfahren.%0A%0AViele%20Grüße"
+                      href="mailto:office@healthiq.at?subject=HealthiQ%20Interesse&body=Hallo%20Benedikt,%0A%0Aich%20interessiere%20mich%20für%20HealthiQ%20und%20würde%20gerne%20mehr%20erfahren.%0A%0AViele%20Grüße"
                       className="w-full group px-8 py-4 bg-stone-50 text-stone-600 rounded-xl font-semibold text-lg hover:bg-stone-100 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl flex items-center justify-center"
                     >
                       <svg className="w-6 h-6 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -856,7 +998,7 @@ const HomePage: React.FC = () => {
                     
                     <div className="text-center pt-4">
                       <p className="text-stone-300 text-sm leading-relaxed">
-                        Wir freuen uns auf das Gespräch und darauf, gemeinsam die Zukunft der Gesundheitsversorgung zu gestalten.
+                        Wir freuen uns auf das Gespräch und darauf, HealthiQ gemeinsam weiterzuentwickeln.
                       </p>
                     </div>
                   </div>
