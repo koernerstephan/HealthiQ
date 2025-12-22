@@ -781,7 +781,7 @@ const HomePage: React.FC = () => {
             Advisory Board
           </h2>
           <p className="text-gray-600">
-            Wir werden flankiert von starkem advisory board aus politik, medizin, unternehmertun, wissenschaft,<br/>
+            Wir werden flankiert von starkem Advisory Board aus Politik, Medizin, Unternehmenstun, Wissenschaft,
             Technologie, Recht, Medizin, Forschung und Wirtschaft.
           </p>
         </div>
