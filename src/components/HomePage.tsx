@@ -62,7 +62,7 @@ const HomePage: React.FC = () => {
           <div className="w-full max-w-4xl">
             <div className="text-center lg:text-left animate-fade-in">
               <h1 className="text-5xl md:text-7xl font-bold text-gray-900 mb-6 leading-tight tracking-tight">
-                HealthiQ –<br />
+                H2ealthiQ –<br />
                 Die sichere Gesundheitscommunity<br />
                 für chronische und psychische Erkrankungen. 
               </h1>
@@ -71,6 +71,10 @@ const HomePage: React.FC = () => {
                 Mit strukturiertem Peer Support, klarer Safety und Governance und verlässlichen
                 Informationen von Fachgesellschaften und Institutionen.
               </h2>
+              
+              <span className="m-2 inline-flex items-center gap-x-1.5 py-1.5 px-3 rounded-full text-xs font-medium border border-gray-800 text-gray-800">DSGVO konform und pseudonymisiert</span>
+              <span className="inline-flex items-center gap-x-1.5 py-1.5 px-3 rounded-full text-xs font-medium border border-gray-500 text-gray-500">DACH Hosting und europäischer Rechtsrahmen</span>
+              <span className="m-2 inline-flex items-center gap-x-1.5 py-1.5 px-3 rounded-full text-xs font-medium border border-gray-800 text-gray-800">Safety und Governance statt Risiko Foren</span>
             </div>
           </div>
         </div>
