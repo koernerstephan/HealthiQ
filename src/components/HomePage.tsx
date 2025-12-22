@@ -602,12 +602,13 @@ const HomePage: React.FC = () => {
                   Über uns
                 </h2>
                 <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                  Die Köpfe hinter HealthiQ – zwei Gründer mit einer Vision für das Gesundheitswesen von morgen.
+                  Die Köpfe hinter HealthiQ – Vier Gründer. Vier Disziplinen. Eine gemeinsame Mission:
+                  eine sichere digitale Infrastruktur für Menschen, die mit Krankheit leben.
                 </p>
               </div>
             </ScrollAnimationWrapper>
             
-            <div className="grid lg:grid-cols-2 gap-12 items-center">
+            <div className="grid lg:grid-cols-2 gap-12 items-top">
               {/* Team Photo */}
               <ScrollAnimationWrapper animationType="fade-left" delay={200}>
                 <div className="order-2 lg:order-1">
@@ -633,9 +634,19 @@ const HomePage: React.FC = () => {
                     <h3 className="text-2xl font-bold text-gray-900 mb-3">
                       Benedikt Hochmuth
                     </h3>
-                    <p className="text-lg text-gray-600 mb-3 group-hover:text-gray-700 transition-colors duration-300">Co-Founder & CEO</p>
+                    <p className="text-lg text-gray-600 mb-3 group-hover:text-gray-700 transition-colors duration-300">CEO</p>
                     <p className="text-gray-700 leading-relaxed">
-                      Visionärer Stratege mit Erfahrung im Rettungsdienst und HR-Management, verantwortlich für Wachstum, Partnerschaften und die Etablierung von HealthiQ als neuen Standard.
+                      Benedikt verbindet reale Notfallmedizin, militärisch geschulte Führungsstärke und
+                      Erfahrung aus einem hochregulierten Pharma Umfeld. Als Rettungssanitäter und
+                      taktischer Einsatzersthelfer Alpha hat er gelernt, Entscheidungen zu treffen, wenn es
+                      zählt. Bei ViraTherapeutics, einer Tochter von Boehringer Ingelheim, arbeitete er im HR
+                      und Administrationsbereich und kennt Compliance, Datenschutz und komplexe
+                      Stakeholderstrukturen aus erster Hand.  
+                    </p>
+                    <p className="text-gray-700 leading-relaxed">
+                      Heute führt er HealthiQ als strategische Leitfigur. Er verantwortet Vision, Produktfokus,
+                      Partnerschaften und Außenauftritt und hält das Projekt nach innen zusammen und nach
+                      außen klar positioniert.
                     </p>
                     <div className="mt-4 pt-3 border-t border-gray-200 group-hover:border-gray-300 transition-colors duration-300">
                       <div className="flex items-center justify-center text-gray-600 group-hover:text-gray-800 transition-colors duration-300">
@@ -655,9 +666,19 @@ const HomePage: React.FC = () => {
                     <h3 className="text-2xl font-bold text-gray-900 mb-3">
                       Stephan Körner
                     </h3>
-                    <p className="text-lg text-gray-600 mb-3 group-hover:text-gray-700 transition-colors duration-300">Co-Founder & COO</p>
+                    <p className="text-lg text-gray-600 mb-3 group-hover:text-gray-700 transition-colors duration-300">CFO</p>
                     <p className="text-gray-700 leading-relaxed">
-                      Operativer Stratege mit Hintergrund im Gesundheitsmanagement. Verantwortlich für klare Strukturen und reibungslose Umsetzung. Sein Fokus: Operations & Projektsteuerung.
+                      Stephan verantwortet Finanzen, Controlling und Förderlogik von HealthiQ. Er bringt
+                      fundierte Kenntnisse in Betriebswirtschaft, Rechnungswesen und Prozessstruktur mit
+                      und verankert das Projekt wirtschaftlich und juristisch sauber und skalierbar. Durch
+                      seine Ausbildung, sein Studium im Gesundheitsmanagement und seine Erfahrung im
+                      Pflegeumfeld kennt er die Realität des Systems nicht nur aus Tabellen, sondern aus dem
+                      Alltag.  
+                    </p>
+                    <p className="text-gray-700 leading-relaxed">
+                      Als ehemaliger Leistungssportler bringt er Belastbarkeit, Fokus und Teamdisziplin ins
+                      Gründerteam. Er sorgt dafür, dass HealthiQ finanziell stabil wächst und
+                      unternehmerisch jederzeit handlungsfähig bleibt. 
                     </p>
                     <div className="mt-4 pt-3 border-t border-gray-200 group-hover:border-gray-300 transition-colors duration-300">
                       <div className="flex items-center justify-center text-gray-600 group-hover:text-gray-800 transition-colors duration-300">
@@ -668,6 +689,53 @@ const HomePage: React.FC = () => {
                       </div>
                     </div>
                   </button>
+
+                   {/* Lilien Heit */}
+                  <button
+                    className="group bg-gray-50 hover:bg-gray-100 rounded-xl p-6 text-left hover:shadow-md transform hover:scale-102 transition-all duration-300 border border-gray-200 hover:border-gray-300 cursor-pointer w-full flex-1"
+                  >
+                    <h3 className="text-2xl font-bold text-gray-900 mb-3">
+                      Lilien Heit
+                    </h3>
+                    <p className="text-lg text-gray-600 mb-3 group-hover:text-gray-700 transition-colors duration-300">COO</p>
+                    <p className="text-gray-700 leading-relaxed">
+                      Lilien ist das operative Herz von HealthiQ. Sie studiert Humanmedizin und bringt
+                      klinisches Wissen direkt in Produkt und Community ein. Gleichzeitig lebt sie seit Geburt
+                      mit einer chronischen Erkrankung und kennt digitale Selbsthilfe nicht aus der Theorie,
+                      sondern aus über zehn Jahren eigener Erfahrung.
+                    </p>
+                    <p className="text-gray-700 leading-relaxed">
+                      Diese doppelte Perspektive macht sie einzigartig. Sie übersetzt medizinische Logik und
+                      echte Bedürfnisse in funktionierende Strukturen, Community Regeln und Inhalte, die im
+                      Alltag helfen. Lilien sorgt dafür, dass HealthiQ nicht nur richtig gedacht, sondern richtig
+                      gemacht ist
+                    </p>
+                    {/* */}
+                  </button>
+                  
+                   {/* Arnd Klocker */}
+                  <button
+                    className="group bg-gray-50 hover:bg-gray-100 rounded-xl p-6 text-left hover:shadow-md transform hover:scale-102 transition-all duration-300 border border-gray-200 hover:border-gray-300 cursor-pointer w-full flex-1"
+                  >
+                    <h3 className="text-2xl font-bold text-gray-900 mb-3">
+                      Arnd Klocker
+                    </h3>
+                    <p className="text-lg text-gray-600 mb-3 group-hover:text-gray-700 transition-colors duration-300">CTO</p>
+                    <p className="text-gray-700 leading-relaxed">
+                      Arnd ist der technische Anker von HealthiQ. Mit über zwei Jahrzehnten Erfahrung als
+                      Softwarearchitekt, Senior Consultant und Unternehmer entwickelt er Systeme, die nicht
+                      nur funktionieren, sondern tragen. Er verantwortet die gesamte Plattform Architektur mit
+                      Fokus auf Sicherheit, Skalierbarkeit und Datenschutz im DACH Rechtsraum.
+                    </p>
+                    <p className="text-gray-700 leading-relaxed">
+                      Er denkt in Systemen, nicht in Features. Arnd sorgt dafür, dass HealthiQ von Beginn an
+                      so gebaut ist, dass Vertrauen, Wachstum und regulatorische Anforderungen kein
+                      Widerspruch sind. Er ist der ruhige Gegenpol im Team und die Garantie dafür, dass junge
+                      energische Vision technisch Realität wird.
+                    </p>
+                    {/* */}
+                  </button>
+
                 </div>
               </ScrollAnimationWrapper>
             </div>
