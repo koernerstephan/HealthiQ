@@ -444,7 +444,7 @@ const HomePage: React.FC = () => {
               </div>
             </ScrollAnimationWrapper>
             
-            <div className="hidden grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
               {/* No-Shows Reduktion */}
               <ScrollAnimationWrapper animationType="scale" delay={100}>
                 <div className="bg-white rounded-2xl p-8 shadow-sm hover:shadow-lg transition-shadow duration-300 border border-stone-200 text-center">
@@ -453,10 +453,12 @@ const HomePage: React.FC = () => {
                       <path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                     </svg>
                   </div>
-                  <div className="text-4xl font-bold text-stone-900 mb-2">–60 %</div>
-                  <h3 className="text-xl font-semibold text-stone-900 mb-3">weniger No-Shows</h3>
+                  <div className="text-4xl font-bold text-stone-900 mb-2">Strukturierter</div>
+                  <h3 className="text-xl font-semibold text-stone-900 mb-3">Austausch, der wirklich hilft</h3>
                   <p className="text-stone-700 leading-relaxed">
-                    durch Erinnerungen & dynamisches Wartelisten-Matching
+                    Krankheitsräume mit klarer Themenstruktur statt endloser Kommentarstränge. Fragen,
+                    Erfahrungen, Tipps und Ressourcen werden auffindbar und verständlich. Das Ziel ist
+                    nicht mehr Inhalt, sondern besserer Inhalt.
                   </p>
                 </div>
               </ScrollAnimationWrapper>
@@ -467,12 +469,16 @@ const HomePage: React.FC = () => {
                   <div className="w-16 h-16 bg-stone-600 rounded-full flex items-center justify-center mx-auto mb-6">
                     <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                     </svg>
                   </div>
-                  <div className="text-4xl font-bold text-stone-900 mb-2">+13.700 €</div>
-                  <h3 className="text-xl font-semibold text-stone-900 mb-3">jährlich eingespart</h3>
+                  <div className="text-4xl font-bold text-stone-900 mb-2">Sicherheit</div>
+                  <h3 className="text-xl font-semibold text-stone-900 mb-3">und Governance als Grundlage</h3>
                   <p className="text-stone-700 leading-relaxed">
-                    pro Assistenzkraft durch digitale Terminorganisation
+                    Gesundheitsbezogener Austausch braucht Schutz. HealthiQ setzt auf klare Regeln,
+                    Rollen, Moderationslogik und Safety Mechanismen, damit sensible Themen nicht
+                    eskalieren, nicht ausarten und nicht gefährlich werden. Das schafft Vertrauen, das man
+                    in offenen Foren nicht bekommt.
                   </p>
                 </div>
               </ScrollAnimationWrapper>
@@ -485,10 +491,13 @@ const HomePage: React.FC = () => {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                     </svg>
                   </div>
-                  <div className="text-4xl font-bold text-stone-900 mb-2">–4,5 t CO₂</div>
-                  <h3 className="text-xl font-semibold text-stone-900 mb-3">pro Praxis und Jahr</h3>
+                  <div className="text-4xl font-bold text-stone-900 mb-2">Verlässliche</div>
+                  <h3 className="text-xl font-semibold text-stone-900 mb-3">Informationen und Materialien, patientengerecht</h3>
                   <p className="text-stone-700 leading-relaxed">
-                    durch weniger Fahrten, Papier und Effizienz
+                    Aufklärung, Unterlagen, Links, Programme und Materialien kommen nicht aus dem
+                    Zufall des Internets, sondern von Fachgesellschaften, Organisationen, Kliniken und
+                    weiteren Institutionen, die diese Inhalte gezielt über HealthiQ teilen können.
+                    Patientengerecht formuliert, klar strukturiert, leicht auffindbar.
                   </p>
                 </div>
               </ScrollAnimationWrapper>
@@ -503,10 +512,13 @@ const HomePage: React.FC = () => {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
                     </svg>
                   </div>
-                  <div className="text-4xl font-bold text-stone-900 mb-2">Deutlich</div>
-                  <h3 className="text-xl font-semibold text-stone-900 mb-3">höhere Patient:innenzufriedenheit und Compliance</h3>
+                  <div className="text-4xl font-bold text-stone-900 mb-2">Aktivierung</div>
+                  <h3 className="text-xl font-semibold text-stone-900 mb-3">Aktivierung und Community im echten Leben</h3>
                   <p className="text-stone-700 leading-relaxed">
-                    massiv gesteigerte Zufriedenheit durch bessere Erfahrung
+                    HealthiQ ist nicht nur digitaler Austausch. Über Events, Info Abende, Partner
+                    Veranstaltungen und Awareness Formate bringt HealthiQ Menschen zusammen, macht
+                    Angebote sichtbar und hilft, lokale und digitale Unterstützung zu verbinden. Das stärkt
+                    Zugehörigkeit und senkt Hürden.
                   </p>
                 </div>
               </ScrollAnimationWrapper>
@@ -519,10 +531,13 @@ const HomePage: React.FC = () => {
                       <path strokeLinecap="round" strokeLinejoin="round" d="M18 18.72a9.094 9.094 0 003.741-.479 3 3 0 00-4.682-2.72m.94 3.198l.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0112 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 016 18.719m12 0a5.971 5.971 0 00-.941-3.197m0 0A5.995 5.995 0 0012 12.75a5.995 5.995 0 00-5.058 2.772m0 0a3 3 0 00-4.681 2.72 8.986 8.986 0 003.74.477m.94-3.197a5.971 5.971 0 00-.94 3.197M15 6.75a3 3 0 11-6 0 3 3 0 016 0zm6 3a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0zm-13.5 0a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0z" />
                     </svg>
                   </div>
-                  <div className="text-4xl font-bold text-stone-900 mb-2">Teilhabe fördern</div>
-                  <h3 className="text-xl font-semibold text-stone-900 mb-3">für alle und jeden</h3>
+                  <div className="text-4xl font-bold text-stone-900 mb-2">Orientierung</div>
+                  <h3 className="text-xl font-semibold text-stone-900 mb-3">auf Knopfdruck durch Assistenz</h3>
                   <p className="text-stone-700 leading-relaxed">
-                    Mehrsprachige, barrierefreie Plattform
+                    Ein KI gestützter Erklär und Orientierungs Bot hilft Nutzer:innen, Inhalte schneller zu
+                    finden, Begriffe zu verstehen, passende Themenräume zu entdecken und den nächsten
+                    sinnvollen Schritt zu erkennen. Nicht als Diagnose oder Therapie, sondern als
+                    Navigation und Verständnishilfe.
                   </p>
                 </div>
               </ScrollAnimationWrapper>
