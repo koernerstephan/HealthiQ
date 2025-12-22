@@ -63,11 +63,13 @@ const HomePage: React.FC = () => {
             <div className="text-center lg:text-left animate-fade-in">
               <h1 className="text-5xl md:text-7xl font-bold text-gray-900 mb-6 leading-tight tracking-tight">
                 HealthiQ –<br />
-                Die sichere Gesundheits- <br />
-                community für chronische & psychische Erkrankungen. 
+                Die sichere Gesundheitscommunity<br />
+                für chronische und psychische Erkrankungen. 
               </h1>
               <h2 className="text-xl md:text-2xl lg:text-3xl text-gray-600 mb-12 max-w-3xl font-light leading-relaxed">
-                HealthiQ verbindet Betroffene und Angehörige in einem geschützten digitalen Umfeld – mit strukturiertem Peer-Support, Leitlinienwissen und institutioneller Einbettung
+                HealthiQ verbindet Betroffene und Angehörige in einem geschützten digitalen Umfeld.
+                Mit strukturiertem Peer Support, klarer Safety und Governance und verlässlichen
+                Informationen von Fachgesellschaften und Institutionen.
               </h2>
             </div>
           </div>
@@ -93,7 +95,7 @@ const HomePage: React.FC = () => {
                   Vision, Mission & Werte
                 </h2>
                 <p className="text-xl text-healthiq-text max-w-3xl mx-auto leading-relaxed">
-                  Wir denken das Gesundheitswesen neu – fair, digital und für alle.
+                  Wir denken das Gesundheitswesen neu.
                 </p>
               </div>
             </ScrollAnimationWrapper>
@@ -114,7 +116,11 @@ const HomePage: React.FC = () => {
                   </div>
                   <h3 className="text-2xl font-bold mb-4">Mission</h3>
                   <p className="text-base leading-relaxed">
-                    Wir verbinden, schützen, stärken und begleiten chronisch erkrankte und psychisch belastete Menschen (inkl. Angehörige) – durch sichere, evidenzbasierte und institutionell vernetzte digitale Selbsthilfe, die Peer-Support, Leitlinienwissen und Partnerschaften zusammenführt.
+                    HealthiQ ermöglicht geschützten digitalen Austausch für Menschen mit chronischen
+                    und psychischen Erkrankungen.
+                    Wir verbinden strukturierten Peer Support mit verlässlichen Informationen und
+                    Materialien von Fachgesellschaften und Institutionen und schaffen so Orientierung,
+                    Entlastung und Unterstützung im Alltag.  
                   </p>
                 </div>
               </ScrollAnimationWrapper>
@@ -130,7 +136,10 @@ const HomePage: React.FC = () => {
                   </div>
                   <h3 className="text-2xl font-bold mb-4">Vision</h3>
                   <p className="text-base leading-relaxed">
-                    Wir werden der zentrale digitale Ort für chronische Erkrankungen im deutschsprachigen Raum – ein Raum, der Lebensqualität verbessert, Patient:innen und ihre Angehörigen zusammenbringt und digitale Menschlichkeit schafft. 
+                    Wir schaffen den zentralen digitalen Ort für chronische und psychische Erkrankungen im
+                    deutschsprachigen Raum.
+                    Einen sicheren Raum, der Betroffene und Angehörige verbindet, Orientierung gibt und
+                    digitale Selbsthilfe auf ein neues Qualitätsniveau hebt.
                   </p>
                 </div>
               </ScrollAnimationWrapper>
@@ -145,7 +154,9 @@ const HomePage: React.FC = () => {
                   </div>
                   <h3 className="text-2xl font-bold mb-4">Werte</h3>
                   <p className="text-base leading-relaxed">
-                    Unsere Werte sind Sicherheit und Schutz durch klare Governance, Evidenz und Orientierung durch Leitlinienbezug, Datenschutz und Vertrauen durch Pseudonymisierung und DSGVO-Konformität sowie Zusammenarbeit zwischen Betroffenen, Expert:innen und Institutionen – wobei der Mensch im Zentrum steht.
+                    Gesundheitsbezogener Austausch braucht Schutz.
+                    HealthiQ setzt auf klare Regeln, Safety Mechanismen und Governance statt ungefilterter
+                    Inhalte und Risiko Dynamiken.  
                   </p>
                 </div>
               </ScrollAnimationWrapper>
@@ -162,10 +173,13 @@ const HomePage: React.FC = () => {
             <ScrollAnimationWrapper animationType="fade-up">
               <div className="max-w-6xl mx-auto text-center">
                 <h2 className="text-3xl md:text-4xl font-extrabold mb-4">
-                  Das Problem: Ein System am Limit.
+                  Das Problem: Gesundheitsversorgung endet oft dort, wo der Alltag beginnt.
                 </h2>
                 <p className="text-base md:text-lg leading-relaxed max-w-3xl mx-auto">
-                  Die Versorgungslücke treibt Betroffene ins unstrukturierte Internet – ohne Schutz, Orientierung und Qualitätsstandards.
+                  Das Versorgungssystem ist auf Diagnosen und Termine ausgerichtet.
+                  Menschen mit chronischen und psychischen Erkrankungen brauchen jedoch
+                  kontinuierliche Orientierung, Austausch und Unterstützung im Alltag. Genau dort
+                  entsteht eine Lücke.
                 </p>
               </div>
             </ScrollAnimationWrapper>
@@ -180,26 +194,36 @@ const HomePage: React.FC = () => {
                   {label:'Wartezeiten',group:'patients'},
                   {label:'Kurztermine',group:'patients'},
                   {label:'Überlastung',group:'patients'},
+                  {label:'Lange Wartezeiten und kurze Kontakte',group:'patients'},
                   {label:'Fragmentierung',group:'patients'},
+                  {label:'Fehlende Begleitung im Alltag',group:'patients'},
                   {label:'Informationsflut',group:'patients'},
                   {label:'Fehlinformation',group:'patients'},
                   {label:'Unmoderiert',group:'patients'},
                   {label:'Social-Media',group:'patients'},
+                  {label:'Informationsflut ohne Einordnung',group:'patients'},
                   {label:'Risikoräume',group:'patients'},
                   {label:'Vulnerabilität',group:'patients'},
                   {label:'Unsicherheit',group:'patients'},
+                  {label:'Ungeschützte Online Räume',group:'patients'},
                   {label:'Qualitätsmangel',group:'patients'},
                   {label:'Orientierungslosigkeit',group:'patients'},
                   {label:'Intransparenz',group:'patients'},
                   {label:'Kommerzialisierung',group:'patients'},
                   {label:'Datenschutzrisiken',group:'patients'},
+                  {label:'Datenschutz und Privatsphäre Risiken',group:'patients'},
                   {label:'Stigmatisierung',group:'patients'},
                   {label:'Isolation',group:'patients'},
+                  {label:'Überforderung von Betroffenen und Angehörigen',group:'patients'},
                   {label:'Fehlberatung',group:'patients'},
                   {label:'Pseudomedizin',group:'patients'},
+                  {label:'Fehlende Verbindung zwischen Selbsthilfe und Versorgungssystem',group:'patients'},
                   {label:'Vertrauensverlust',group:'patients'},
                   {label:'Überforderung',group:'patients'}
                 ]} />
+                 <p className="text-base md:text-lg leading-relaxed max-w-3xl mx-auto md:py-8">
+                  Ohne Struktur wird Austausch zum Risiko. Ohne Schutz wird Information zur Belastung.
+                </p>
               </div>
             </ScrollAnimationWrapper>
           </div>
@@ -213,10 +237,22 @@ const HomePage: React.FC = () => {
               <h2 className="text-3xl md:text-4xl font-extrabold mb-4">
                 Unsere Lösung: HealthiQ.
               </h2>
+              <h3 className="text-2xl text-gray-900 mb-6">
+                HealthiQ ist die sichere Gesundheitscommunity<br/> 
+                für Austausch, Orientierung und Unterstützung im Alltag.
+              </h3>
               <p className="text-lg md:text-xl text-stone-700 leading-relaxed mt-4">
-                HealthiQ ist die erste evidenzbasierte, DSGVO-konforme Gesundheitscommunity im DACH-Raum, die Menschen
-                mit chronischen und psychischen Erkrankungen in einem sicheren digitalen Umfeld verbindet – als 
-                vertrauenswürdige Infrastruktur zwischen Versorgungssystem, klassischer Selbsthilfe und unstrukturiertem Internet.
+                HealthiQ verbindet Betroffene und Angehörige erstmalig in einem geschützten digitalen
+                Umfeld und macht Unterstützung im Alltag wirklich zugänglich. Strukturierter Peer
+                Support trifft auf verlässliche Informationen und Materialien von Fachgesellschaften
+                und Institutionen. Klare Regeln, Safety Mechanismen und Governance sorgen dafür,
+                dass Austausch unterstützt statt überfordert. Zusätzlich bringt HealthiQ Menschen auch
+                außerhalb der App zusammen durch Veranstaltungen, Awareness Formate und
+                vernetzte Angebote mit Partnern.
+              </p>
+              <p className="text-lg md:text-xl text-stone-700 leading-relaxed mt-4">
+                HealthiQ ist keine offene Social Plattform. HealthiQ ist eine kuratierte Infrastruktur, die
+                 ergänzt statt ersetzt und dort Stabilität schafft, wo sonst Chaos entsteht.
               </p>
               <div className="mt-8">
                 <a
