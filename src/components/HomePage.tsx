@@ -257,7 +257,7 @@ const HomePage: React.FC = () => {
                   {label:'Vertrauensverlust',group:'patients'},
                   {label:'Überforderung',group:'patients'}
                 ]} />
-                 <p className="text-base md:text-lg leading-relaxed max-w-3xl mx-auto md:py-8">
+                 <p className="text-base md:text-lg leading-relaxed max-w-3xl mx-auto md:py-8 pt-6">
                   Ohne Struktur wird Austausch zum Risiko. Ohne Schutz wird Information zur Belastung.
                 </p>
               </div>
