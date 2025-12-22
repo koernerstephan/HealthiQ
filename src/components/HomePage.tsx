@@ -157,10 +157,34 @@ const HomePage: React.FC = () => {
                     </svg>
                   </div>
                   <h3 className="text-2xl font-bold mb-4">Werte</h3>
-                  <p className="text-base leading-relaxed">
+
+                  <h4 className="text-1xl font-bold text-left" >Sicherheit</h4>
+                  <p className="text-base leading-relaxed text-left pt-2">
                     Gesundheitsbezogener Austausch braucht Schutz.
                     HealthiQ setzt auf klare Regeln, Safety Mechanismen und Governance statt ungefilterter
                     Inhalte und Risiko Dynamiken.  
+                  </p>
+
+                  <h4 className="text-1xl font-bold text-left pt-4" >Datenschutz</h4>
+                  <p className="text-base leading-relaxed text-left pt-2">
+                    Privatsphäre ist Voraussetzung für Offenheit.
+                    HealthiQ ist DSGVO konform, pseudonymisiert. Daten gehören den Nutzer:innen, nicht
+                    der Plattform.
+                  </p>
+
+                  <h4 className="text-1xl font-bold text-left pt-4" >Qualität</h4>
+                  <p className="text-base leading-relaxed text-left pt-2">
+                    Information schafft nur dann Sicherheit, wenn sie verlässlich ist.
+                    HealthiQ arbeitet mit Fachgesellschaften, Organisationen und Institutionen zusammen,
+                    um geprüfte Inhalte und Materialien bereitzustellen.
+                  </p>
+
+                  <h4 className="text-1xl font-bold text-left pt-4" >Zusammenarbeit</h4>
+                  <p className="text-base leading-relaxed text-left pt-2">
+                    Gesundheit ist Teamarbeit.
+                    HealthiQ bringt Betroffene, Angehörige und Institutionen in einem strukturierten
+                    digitalen Raum zusammen und stärkt so gegenseitiges Verständnis und nachhaltige
+                    Unterstützung.
                   </p>
                 </div>
               </ScrollAnimationWrapper>
