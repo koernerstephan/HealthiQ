@@ -61,12 +61,12 @@ const HomePage: React.FC = () => {
         <div className="container mx-auto px-6 py-20 flex items-center min-h-screen">
           <div className="w-full max-w-4xl">
             <div className="text-center lg:text-left animate-fade-in">
-              <h1 className="text-5xl md:text-7xl font-bold text-gray-900 mb-6 leading-tight tracking-tight">
-                H2ealthiQ –<br />
+              <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6 leading-tight tracking-tight">
+                HealthiQ –<br />
                 Die sichere Gesundheitscommunity<br />
                 für chronische und psychische Erkrankungen. 
               </h1>
-              <h2 className="text-xl md:text-2xl lg:text-3xl text-gray-600 mb-12 max-w-3xl font-light leading-relaxed">
+              <h2 className="text-xl md:text-2xl lg:text-3xl text-gray-600 mb-12 max-w-3xl font-light leading-relaxed pt-1">
                 HealthiQ verbindet Betroffene und Angehörige in einem geschützten digitalen Umfeld.
                 Mit strukturiertem Peer Support, klarer Safety und Governance und verlässlichen
                 Informationen von Fachgesellschaften und Institutionen.
