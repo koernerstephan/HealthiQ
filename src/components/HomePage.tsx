@@ -747,6 +747,23 @@ const HomePage: React.FC = () => {
       <div className="container mx-auto px-6">
         <div className="h-px bg-gray-200 opacity-50 max-w-6xl mx-auto"></div>
       </div>
+      
+      <ScrollAnimationWrapper animationType="fade-up">
+        <div className="text-center mb-8">
+          <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4 pt-4">
+            Advisory Board
+          </h2>
+          <p className="text-gray-600">
+            Wir werden flankiert von starkem advisory board aus politik, medizin, unternehmertun, wissenschaft,<br/>
+            Technologie, Recht, Medizin, Forschung und Wirtschaft.
+          </p>
+        </div>
+      </ScrollAnimationWrapper>
+
+      {/* Subtle Divider */}
+      <div className="container mx-auto px-6">
+        <div className="h-px bg-gray-200 opacity-50 max-w-6xl mx-auto"></div>
+      </div>
 
       {/* Partner Section */}
       <section className="py-12 bg-white">
@@ -791,12 +808,17 @@ const HomePage: React.FC = () => {
               <div className="h-[2px] max-w-6xl opacity-50 bg-gray-200"></div>
             </div>
             
-             <ScrollAnimationWrapper animationType="fade-up">
+      <ScrollAnimationWrapper animationType="fade-up">
         <div className="text-center mb-8">
           <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4 pt-4">
             Presse &amp; Artikel über HealthiQ
           </h2>
-          <p className="text-gray-600">Medienberichte &amp; Veröffentlichungen.</p>
+          <p className="text-gray-600">
+            Die folgenden Artikel entstanden in einer frühen Phase von HealthiQ.
+            Sie dokumentieren den Weg von der ersten gesamt Idee,<br/> eine große Idee
+            
+            zur Revolution des Gesundheitswesen bis hin zur heutigen klar fokussierten HealthiQ Community
+          </p>
         </div>
       </ScrollAnimationWrapper>
 
@@ -965,7 +987,7 @@ const HomePage: React.FC = () => {
                   
                   <div className="space-y-6 flex-grow flex flex-col justify-center">
                     <a 
-                      href="mailto:benedikt.hochmuth@healthiq.at,stephan.koerner@healthiq.at?subject=HealthiQ%20Interesse&body=Hallo%20Benedikt%20und%20Stephan,%0A%0Aich%20interessiere%20mich%20für%20HealthiQ%20und%20würde%20gerne%20mehr%20erfahren.%0A%0AViele%20Grüße"
+                      href="mailto:office@healthiq.at?subject=HealthiQ%20Interesse&body=Hallo%20Benedikt,%0A%0Aich%20interessiere%20mich%20für%20HealthiQ%20und%20würde%20gerne%20mehr%20erfahren.%0A%0AViele%20Grüße"
                       className="w-full group px-8 py-4 bg-stone-50 text-stone-600 rounded-xl font-semibold text-lg hover:bg-stone-100 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl flex items-center justify-center"
                     >
                       <svg className="w-6 h-6 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
