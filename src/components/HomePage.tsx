@@ -75,6 +75,13 @@ const HomePage: React.FC = () => {
               {/* <span className="m-2 inline-flex items-center gap-x-1.5 py-1.5 px-3 rounded-full text-xs font-medium border border-gray-800 text-gray-800">DSGVO konform und pseudonymisiert</span>
               <span className="inline-flex items-center gap-x-1.5 py-1.5 px-3 rounded-full text-xs font-medium border border-gray-500 text-gray-500">DACH Hosting und europäischer Rechtsrahmen</span>
               <span className="m-2 inline-flex items-center gap-x-1.5 py-1.5 px-3 rounded-full text-xs font-medium border border-gray-800 text-gray-800">Safety und Governance statt Risiko Foren</span> */}
+            <WordBubbleCloud justify='start' bubbles={[
+                  // h
+                  {label:'DSGVO konform und pseudonymisiert',group:'h'},
+                  {label:'DACH Hosting und europäischer Rechtsrahmen',group:'h'},
+                  {label:'Safety und Governance statt Risiko Foren',group:'h'},
+                ]} />
+
             </div>
           </div>
         </div>
@@ -84,7 +91,8 @@ const HomePage: React.FC = () => {
         <div className="absolute top-1/4 right-10 w-72 h-72 bg-gradient-to-br from-blue-200 to-indigo-200 rounded-full opacity-30 blur-3xl animate-pulse"></div>
         <div className="absolute bottom-1/4 left-10 w-96 h-96 bg-gradient-to-tr from-indigo-200 to-teal-200 rounded-full opacity-25 blur-3xl animate-pulse" style={{ animationDelay: '1s' }}></div>
         <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-64 h-64 bg-gradient-to-r from-blue-100 to-indigo-100 rounded-full opacity-20 blur-2xl"></div>
-        
+
+
         {/* Medical Pattern Overlay */}
         <div className="absolute inset-0 opacity-5 bg-gradient-to-br from-transparent via-blue-50 to-transparent" style={{ backgroundImage: 'radial-gradient(circle at 25% 25%, #3b82f6 1px, transparent 1px), radial-gradient(circle at 75% 75%, #6366f1 1px, transparent 1px)', backgroundSize: '50px 50px' }}></div>
       </section>
