@@ -643,9 +643,9 @@ const HomePage: React.FC = () => {
               </div>
             </ScrollAnimationWrapper>
             
-            <div className="grid lg:grid-cols-2 gap-12 items-top">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
               {/* Team Photo */}
-              <ScrollAnimationWrapper animationType="fade-left" delay={200}>
+              {/* <ScrollAnimationWrapper animationType="fade-left" delay={200}>
                 <div className="order-2 lg:order-1">
                   <div className="relative">
                     <img 
@@ -656,19 +656,15 @@ const HomePage: React.FC = () => {
                     <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent rounded-2xl"></div>
                   </div>
                 </div>
-              </ScrollAnimationWrapper>
+              </ScrollAnimationWrapper> */}
               
               {/* Team Info */}
-              <ScrollAnimationWrapper animationType="fade-right" delay={300}>
-                <div className="order-1 lg:order-2 flex flex-col justify-between h-full space-y-6">
-                  {/* Benedikt Hochmuth */}
+              <ScrollAnimationWrapper animationType="fade-up" delay={200}>
                   <button
                     onClick={() => window.open('/Benedikt Hochmuth_Lebenslauf.pdf', '_blank')}
-                    className="group bg-gray-50 hover:bg-gray-100 rounded-xl p-6 text-left hover:shadow-md transform hover:scale-102 transition-all duration-300 border border-gray-200 hover:border-gray-300 cursor-pointer w-full flex-1"
+                    className="group bg-gray-50 hover:bg-gray-100 rounded-xl p-6 text-left hover:shadow-md transform hover:scale-102 transition-all duration-300 border border-gray-200 hover:border-gray-300 cursor-pointer w-full"
                   >
-                    <h3 className="text-2xl font-bold text-gray-900 mb-3">
-                      Benedikt Hochmuth
-                    </h3>
+                    <h3 className="text-2xl font-bold text-gray-900 mb-3">Benedikt Hochmuth</h3>
                     <p className="text-lg text-gray-600 mb-3 group-hover:text-gray-700 transition-colors duration-300">CEO</p>
                     <p className="text-gray-700 leading-relaxed">
                       Benedikt verbindet reale Notfallmedizin, militärisch geschulte Führungsstärke und
@@ -676,7 +672,7 @@ const HomePage: React.FC = () => {
                       taktischer Einsatzersthelfer Alpha hat er gelernt, Entscheidungen zu treffen, wenn es
                       zählt. Bei ViraTherapeutics, einer Tochter von Boehringer Ingelheim, arbeitete er im HR
                       und Administrationsbereich und kennt Compliance, Datenschutz und komplexe
-                      Stakeholderstrukturen aus erster Hand.  
+                      Stakeholderstrukturen aus erster Hand.
                     </p>
                     <p className="text-gray-700 leading-relaxed">
                       Heute führt er HealthiQ als strategische Leitfigur. Er verantwortet Vision, Produktfokus,
@@ -692,15 +688,14 @@ const HomePage: React.FC = () => {
                       </div>
                     </div>
                   </button>
-                  
-                  {/* Stephan Körner */}
+                </ScrollAnimationWrapper>
+
+                <ScrollAnimationWrapper animationType="fade-up" delay={300}>
                   <button
                     onClick={() => window.open('/Stephan Körner_Lebenslauf2.0.pdf', '_blank')}
-                    className="group bg-gray-50 hover:bg-gray-100 rounded-xl p-6 text-left hover:shadow-md transform hover:scale-102 transition-all duration-300 border border-gray-200 hover:border-gray-300 cursor-pointer w-full flex-1"
+                    className="group bg-gray-50 hover:bg-gray-100 rounded-xl p-6 text-left hover:shadow-md transform hover:scale-102 transition-all duration-300 border border-gray-200 hover:border-gray-300 cursor-pointer w-full"
                   >
-                    <h3 className="text-2xl font-bold text-gray-900 mb-3">
-                      Stephan Körner
-                    </h3>
+                    <h3 className="text-2xl font-bold text-gray-900 mb-3">Stephan Körner</h3>
                     <p className="text-lg text-gray-600 mb-3 group-hover:text-gray-700 transition-colors duration-300">CFO</p>
                     <p className="text-gray-700 leading-relaxed">
                       Stephan verantwortet Finanzen, Controlling und Förderlogik von HealthiQ. Er bringt
@@ -724,54 +719,48 @@ const HomePage: React.FC = () => {
                       </div>
                     </div>
                   </button>
+                </ScrollAnimationWrapper>
 
-                   {/* Lilien Heit */}
-                  <button
-                    className="group bg-gray-50 hover:bg-gray-100 rounded-xl p-6 text-left hover:shadow-md transform hover:scale-102 transition-all duration-300 border border-gray-200 hover:border-gray-300 cursor-pointer w-full flex-1"
-                  >
-                    <h3 className="text-2xl font-bold text-gray-900 mb-3">
-                      Lilien Heit
-                    </h3>
-                    <p className="text-lg text-gray-600 mb-3 group-hover:text-gray-700 transition-colors duration-300">COO</p>
-                    <p className="text-gray-700 leading-relaxed">
-                      Lilien ist das operative Herz von HealthiQ. Sie studiert Humanmedizin und bringt
-                      klinisches Wissen direkt in Produkt und Community ein. Gleichzeitig lebt sie seit Geburt
-                      mit einer chronischen Erkrankung und kennt digitale Selbsthilfe nicht aus der Theorie,
-                      sondern aus über zehn Jahren eigener Erfahrung.
-                    </p>
-                    <p className="text-gray-700 leading-relaxed">
+              <ScrollAnimationWrapper animationType="fade-up" delay={400}>
+                <button
+                  className="group bg-gray-50 hover:bg-gray-100 rounded-xl p-6 text-left hover:shadow-md transform hover:scale-102 transition-all duration-300 border border-gray-200 hover:border-gray-300 cursor-pointer w-full"
+                >
+                  <h3 className="text-2xl font-bold text-gray-900 mb-3">Lilien Heit</h3>
+                  <p className="text-lg text-gray-600 mb-3 group-hover:text-gray-700 transition-colors duration-300">COO</p>
+                  <p className="text-gray-700 leading-relaxed">
+                    Lilien ist das operative Herz von HealthiQ. Sie studiert Humanmedizin und bringt
+                    klinisches Wissen direkt in Produkt und Community ein. Gleichzeitig lebt sie seit Geburt
+                    mit einer chronischen Erkrankung und kennt digitale Selbsthilfe nicht aus der Theorie,
+                    sondern aus über zehn Jahren eigener Erfahrung.
+                  </p>
+                  <p className="text-gray-700 leading-relaxed">
                       Diese doppelte Perspektive macht sie einzigartig. Sie übersetzt medizinische Logik und
                       echte Bedürfnisse in funktionierende Strukturen, Community Regeln und Inhalte, die im
                       Alltag helfen. Lilien sorgt dafür, dass HealthiQ nicht nur richtig gedacht, sondern richtig
-                      gemacht ist
+                      gemacht ist<br/><br/>
                     </p>
-                    {/* */}
-                  </button>
-                  
-                   {/* Arnd Klocker */}
-                  <button
-                    className="group bg-gray-50 hover:bg-gray-100 rounded-xl p-6 text-left hover:shadow-md transform hover:scale-102 transition-all duration-300 border border-gray-200 hover:border-gray-300 cursor-pointer w-full flex-1"
-                  >
-                    <h3 className="text-2xl font-bold text-gray-900 mb-3">
-                      Arnd Klocker
-                    </h3>
-                    <p className="text-lg text-gray-600 mb-3 group-hover:text-gray-700 transition-colors duration-300">CTO</p>
-                    <p className="text-gray-700 leading-relaxed">
-                      Arnd ist der technische Anker von HealthiQ. Mit über zwei Jahrzehnten Erfahrung als
-                      Softwarearchitekt, Senior Consultant und Unternehmer entwickelt er Systeme, die nicht
-                      nur funktionieren, sondern tragen. Er verantwortet die gesamte Plattform Architektur mit
-                      Fokus auf Sicherheit, Skalierbarkeit und Datenschutz im DACH Rechtsraum.
-                    </p>
-                    <p className="text-gray-700 leading-relaxed">
+                </button>
+              </ScrollAnimationWrapper>
+
+              <ScrollAnimationWrapper animationType="fade-up" delay={500}>
+                <button
+                  className="group bg-gray-50 hover:bg-gray-100 rounded-xl p-6 text-left hover:shadow-md transform hover:scale-102 transition-all duration-300 border border-gray-200 hover:border-gray-300 cursor-pointer w-full"
+                >
+                  <h3 className="text-2xl font-bold text-gray-900 mb-3">Arnd Klocker</h3>
+                  <p className="text-lg text-gray-600 mb-3 group-hover:text-gray-700 transition-colors duration-300">CTO</p>
+                  <p className="text-gray-700 leading-relaxed">
+                    Arnd ist der technische Anker von HealthiQ. Mit über zwei Jahrzehnten Erfahrung als
+                    Softwarearchitekt, Senior Consultant und Unternehmer entwickelt er Systeme, die nicht
+                    nur funktionieren, sondern tragen. Er verantwortet die gesamte Plattform Architektur mit
+                    Fokus auf Sicherheit, Skalierbarkeit und Datenschutz im DACH Rechtsraum.
+                  </p>
+                  <p className="text-gray-700 leading-relaxed">
                       Er denkt in Systemen, nicht in Features. Arnd sorgt dafür, dass HealthiQ von Beginn an
                       so gebaut ist, dass Vertrauen, Wachstum und regulatorische Anforderungen kein
                       Widerspruch sind. Er ist der ruhige Gegenpol im Team und die Garantie dafür, dass junge
                       energische Vision technisch Realität wird.
-                    </p>
-                    {/* */}
-                  </button>
-
-                </div>
+                  </p>
+                </button>
               </ScrollAnimationWrapper>
             </div>
           </div>
