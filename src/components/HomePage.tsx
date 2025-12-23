@@ -75,12 +75,12 @@ const HomePage: React.FC = () => {
               {/* <span className="m-2 inline-flex items-center gap-x-1.5 py-1.5 px-3 rounded-full text-xs font-medium border border-gray-800 text-gray-800">DSGVO konform und pseudonymisiert</span>
               <span className="inline-flex items-center gap-x-1.5 py-1.5 px-3 rounded-full text-xs font-medium border border-gray-500 text-gray-500">DACH Hosting und europäischer Rechtsrahmen</span>
               <span className="m-2 inline-flex items-center gap-x-1.5 py-1.5 px-3 rounded-full text-xs font-medium border border-gray-800 text-gray-800">Safety und Governance statt Risiko Foren</span> */}
-            <WordBubbleCloud justify='start' bubbles={[
+            {/* <WordBubbleCloud justify='start' bubbles={[
                   // h
                   {label:'DSGVO konform und pseudonymisiert',group:'h'},
                   {label:'DACH Hosting und europäischer Rechtsrahmen',group:'h'},
                   {label:'Safety und Governance statt Risiko Foren',group:'h'},
-                ]} />
+                ]} /> */}
 
             </div>
           </div>
