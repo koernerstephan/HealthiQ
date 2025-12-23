@@ -55,7 +55,6 @@ const LegalPage: React.FC = () => {
                 <h3 className="text-xl font-bold text-healthiq-primary mb-4">Unternehmensangaben</h3>
                 <div className="space-y-3 text-healthiq-text">
                   <p className="font-semibold text-lg">HealthiQ GesbR</p>
-                  <p>Gesellschafter: Benedikt Hochmuth, Stephan Körner</p>
                   
                   <div className="mt-4">
                     <h4 className="font-semibold text-healthiq-primary mb-2">Anschrift:</h4>
@@ -75,14 +74,6 @@ const LegalPage: React.FC = () => {
                       <div className="flex items-center space-x-2">
                         <Mail className="w-4 h-4 text-healthiq-primary" />
                         <span>benedikt.hochmuth@healthiq.at</span>
-                      </div>
-                      <div className="flex items-center space-x-2">
-                        <Phone className="w-4 h-4 text-healthiq-primary" />
-                        <span>+43 676 3859331</span>
-                      </div>
-                      <div className="flex items-center space-x-2">
-                        <Mail className="w-4 h-4 text-healthiq-primary" />
-                        <span>stephan.koerner@healthiq.at</span>
                       </div>
                     </div>
                   </div>
@@ -104,9 +95,7 @@ const LegalPage: React.FC = () => {
               <div>
                 <h3 className="text-xl font-bold text-healthiq-primary mb-4">Unternehmensgegenstand</h3>
                 <p className="text-healthiq-text leading-relaxed">
-                  Entwicklung, Betrieb und Vermarktung einer digitalen Plattform zur Vermittlung, 
-                  Buchung und Verwaltung von Terminen im Gesundheitswesen, einschließlich 
-                  patientenorientierter, praxisorientierter und systemorientierter Anwendungen.
+                  Entwicklung und Betrieb einer Online-Plattformen im Bereich Gesundheitsmanagement und Community.
                 </p>
               </div>
 
@@ -114,7 +103,7 @@ const LegalPage: React.FC = () => {
               <div>
                 <h3 className="text-xl font-bold text-healthiq-primary mb-4">Weitere Angaben</h3>
                 <div className="space-y-2 text-healthiq-text">
-                  <p><strong>Vertretungsberechtigte Personen:</strong> Benedikt Hochmuth, Stephan Körner</p>
+                  <p><strong>Vertretungsberechtigte Personen:</strong> Benedikt Hochmuth</p>
                   <p><strong>Berufsbezeichnung:</strong> Unternehmer im Bereich digitale Gesundheitsplattformen</p>
                   <p><strong>Berufsrecht:</strong> Es bestehen keine berufsrechtlichen Regelungen.</p>
                   <p><strong>Aufsichtsbehörde:</strong> keine</p>
