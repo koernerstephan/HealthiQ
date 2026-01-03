@@ -641,7 +641,6 @@ const HomePage: React.FC = () => {
               {/* Team Info */}
               <ScrollAnimationWrapper animationType="fade-up" delay={200}>
                   <button
-                    onClick={() => window.open('/Benedikt Hochmuth_Lebenslauf.pdf', '_blank')}
                     className="group bg-gray-50 hover:bg-gray-100 rounded-xl p-6 text-left hover:shadow-md transform hover:scale-102 transition-all duration-300 border border-gray-200 hover:border-gray-300 cursor-pointer w-full"
                   >
                     <h3 className="text-2xl font-bold text-gray-900 mb-3">Benedikt Hochmuth</h3>
@@ -659,20 +658,19 @@ const HomePage: React.FC = () => {
                       Partnerschaften und Außenauftritt und hält das Projekt nach innen zusammen und nach
                       außen klar positioniert.
                     </p>
-                    <div className="mt-4 pt-3 border-t border-gray-200 group-hover:border-gray-300 transition-colors duration-300">
+                    {/* <div className="mt-4 pt-3 border-t border-gray-200 group-hover:border-gray-300 transition-colors duration-300">
                       <div className="flex items-center justify-center text-gray-600 group-hover:text-gray-800 transition-colors duration-300">
                         <span className="text-sm font-medium mr-2">Lebenslauf öffnen</span>
                         <svg className="w-4 h-4 transform group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                         </svg>
                       </div>
-                    </div>
+                    </div> */}
                   </button>
                 </ScrollAnimationWrapper>
 
                 <ScrollAnimationWrapper animationType="fade-up" delay={300}>
                   <button
-                    onClick={() => window.open('/Stephan Körner_Lebenslauf2.0.pdf', '_blank')}
                     className="group bg-gray-50 hover:bg-gray-100 rounded-xl p-6 text-left hover:shadow-md transform hover:scale-102 transition-all duration-300 border border-gray-200 hover:border-gray-300 cursor-pointer w-full"
                   >
                     <h3 className="text-2xl font-bold text-gray-900 mb-3">Stephan Körner</h3>
@@ -690,14 +688,14 @@ const HomePage: React.FC = () => {
                       Gründerteam. Er sorgt dafür, dass HealthiQ finanziell stabil wächst und
                       unternehmerisch jederzeit handlungsfähig bleibt. 
                     </p>
-                    <div className="mt-4 pt-3 border-t border-gray-200 group-hover:border-gray-300 transition-colors duration-300">
+                    {/* <div className="mt-4 pt-3 border-t border-gray-200 group-hover:border-gray-300 transition-colors duration-300">
                       <div className="flex items-center justify-center text-gray-600 group-hover:text-gray-800 transition-colors duration-300">
                         <span className="text-sm font-medium mr-2">Lebenslauf öffnen</span>
                         <svg className="w-4 h-4 transform group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                         </svg>
                       </div>
-                    </div>
+                    </div> */}
                   </button>
                 </ScrollAnimationWrapper>
 
