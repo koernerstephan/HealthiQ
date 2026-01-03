@@ -128,11 +128,11 @@ const HomePage: React.FC = () => {
                   </div>
                   <h3 className="text-2xl font-bold mb-4">Mission</h3>
                   <p className="text-base leading-relaxed">
-                    HealthiQ ermöglicht geschützten digitalen Austausch für Menschen mit chronischen
-                    und psychischen Erkrankungen.
-                    Wir verbinden strukturierten Peer Support mit verlässlichen Informationen und
-                    Materialien von Fachgesellschaften und Institutionen und schaffen so Orientierung,
-                    Entlastung und Unterstützung im Alltag.  
+                    HealthiQ ermöglicht geschützten digitalen Austausch für Menschen mit chronischen 
+                    und psychischen Erkrankungen. Die Plattform verbindet strukturierten Peer-Support mit 
+                    verlässlichen Informationen und Materialien von Fachgesellschaften und Institutionen. 
+                    So schafft HealthiQ Orientierung, Entlastung und alltagsnahe Unterstützung in einem 
+                    sicheren digitalen Rahmen.
                   </p>
                 </div>
               </ScrollAnimationWrapper>
@@ -148,10 +148,11 @@ const HomePage: React.FC = () => {
                   </div>
                   <h3 className="text-2xl font-bold mb-4">Vision</h3>
                   <p className="text-base leading-relaxed">
-                    Wir schaffen den zentralen digitalen Ort für chronische und psychische Erkrankungen im
-                    deutschsprachigen Raum.
-                    Einen sicheren Raum, der Betroffene und Angehörige verbindet, Orientierung gibt und
-                    digitale Selbsthilfe auf ein neues Qualitätsniveau hebt.
+                    HealthiQ schafft den zentralen digitalen Ort für chronische und psychische 
+                    Erkrankungen im deutschsprachigen Raum. Einen sicheren Raum, der Betroffene und 
+                    Angehörige verbindet, Orientierung bietet und digitale Selbsthilfe auf ein neues 
+                    Qualitätsniveau hebt – ergänzend zur bestehenden Versorgung und fest verankert im 
+                    Alltag der Menschen.
                   </p>
                 </div>
               </ScrollAnimationWrapper>
@@ -165,34 +166,13 @@ const HomePage: React.FC = () => {
                     </svg>
                   </div>
                   <h3 className="text-2xl font-bold mb-4">Werte</h3>
-
-                  <h4 className="text-1xl font-bold text-left" >Sicherheit</h4>
-                  <p className="text-base leading-relaxed text-left pt-2">
-                    Gesundheitsbezogener Austausch braucht Schutz.
-                    HealthiQ setzt auf klare Regeln, Safety Mechanismen und Governance statt ungefilterter
-                    Inhalte und Risiko Dynamiken.  
-                  </p>
-
-                  <h4 className="text-1xl font-bold text-left pt-4" >Datenschutz</h4>
-                  <p className="text-base leading-relaxed text-left pt-2">
-                    Privatsphäre ist Voraussetzung für Offenheit.
-                    HealthiQ ist DSGVO konform, pseudonymisiert. Daten gehören den Nutzer:innen, nicht
-                    der Plattform.
-                  </p>
-
-                  <h4 className="text-1xl font-bold text-left pt-4" >Qualität</h4>
-                  <p className="text-base leading-relaxed text-left pt-2">
-                    Information schafft nur dann Sicherheit, wenn sie verlässlich ist.
-                    HealthiQ arbeitet mit Fachgesellschaften, Organisationen und Institutionen zusammen,
-                    um geprüfte Inhalte und Materialien bereitzustellen.
-                  </p>
-
-                  <h4 className="text-1xl font-bold text-left pt-4" >Zusammenarbeit</h4>
-                  <p className="text-base leading-relaxed text-left pt-2">
-                    Gesundheit ist Teamarbeit.
-                    HealthiQ bringt Betroffene, Angehörige und Institutionen in einem strukturierten
-                    digitalen Raum zusammen und stärkt so gegenseitiges Verständnis und nachhaltige
-                    Unterstützung.
+                  <p className="text-base leading-relaxed">
+                    HealthiQ steht für Sicherheit, Datenschutz, Qualität und Zusammenarbeit. 
+                    Gesundheitsbezogener Austausch braucht klare Regeln, Schutzmechanismen und 
+                    Governance, um Vertrauen zu ermöglichen. Privatsphäre ist dabei Voraussetzung für 
+                    Offenheit: HealthiQ ist DSGVO-konform, pseudonym nutzbar und datenminimiert. 
+                    Verlässliche Informationen entstehen durch Zusammenarbeit mit Fachgesellschaften, 
+                    Organisationen und Institutionen.
                   </p>
                 </div>
               </ScrollAnimationWrapper>
