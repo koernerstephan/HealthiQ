@@ -128,11 +128,11 @@ const HomePage: React.FC = () => {
                   </div>
                   <h3 className="text-2xl font-bold mb-4">Mission</h3>
                   <p className="text-base leading-relaxed">
-                    HealthiQ ermöglicht geschützten digitalen Austausch für Menschen mit chronischen
-                    und psychischen Erkrankungen.
-                    Wir verbinden strukturierten Peer Support mit verlässlichen Informationen und
-                    Materialien von Fachgesellschaften und Institutionen und schaffen so Orientierung,
-                    Entlastung und Unterstützung im Alltag.  
+                    HealthiQ ermöglicht geschützten digitalen Austausch für Menschen mit chronischen 
+                    und psychischen Erkrankungen. Die Plattform verbindet strukturierten Peer-Support mit 
+                    verlässlichen Informationen und Materialien von Fachgesellschaften und Institutionen. 
+                    So schafft HealthiQ Orientierung, Entlastung und alltagsnahe Unterstützung in einem 
+                    sicheren digitalen Rahmen.
                   </p>
                 </div>
               </ScrollAnimationWrapper>
@@ -148,10 +148,11 @@ const HomePage: React.FC = () => {
                   </div>
                   <h3 className="text-2xl font-bold mb-4">Vision</h3>
                   <p className="text-base leading-relaxed">
-                    Wir schaffen den zentralen digitalen Ort für chronische und psychische Erkrankungen im
-                    deutschsprachigen Raum.
-                    Einen sicheren Raum, der Betroffene und Angehörige verbindet, Orientierung gibt und
-                    digitale Selbsthilfe auf ein neues Qualitätsniveau hebt.
+                    HealthiQ schafft den zentralen digitalen Ort für chronische und psychische 
+                    Erkrankungen im deutschsprachigen Raum. Einen sicheren Raum, der Betroffene und 
+                    Angehörige verbindet, Orientierung bietet und digitale Selbsthilfe auf ein neues 
+                    Qualitätsniveau hebt – ergänzend zur bestehenden Versorgung und fest verankert im 
+                    Alltag der Menschen.
                   </p>
                 </div>
               </ScrollAnimationWrapper>
@@ -165,34 +166,13 @@ const HomePage: React.FC = () => {
                     </svg>
                   </div>
                   <h3 className="text-2xl font-bold mb-4">Werte</h3>
-
-                  <h4 className="text-1xl font-bold text-left" >Sicherheit</h4>
-                  <p className="text-base leading-relaxed text-left pt-2">
-                    Gesundheitsbezogener Austausch braucht Schutz.
-                    HealthiQ setzt auf klare Regeln, Safety Mechanismen und Governance statt ungefilterter
-                    Inhalte und Risiko Dynamiken.  
-                  </p>
-
-                  <h4 className="text-1xl font-bold text-left pt-4" >Datenschutz</h4>
-                  <p className="text-base leading-relaxed text-left pt-2">
-                    Privatsphäre ist Voraussetzung für Offenheit.
-                    HealthiQ ist DSGVO konform, pseudonymisiert. Daten gehören den Nutzer:innen, nicht
-                    der Plattform.
-                  </p>
-
-                  <h4 className="text-1xl font-bold text-left pt-4" >Qualität</h4>
-                  <p className="text-base leading-relaxed text-left pt-2">
-                    Information schafft nur dann Sicherheit, wenn sie verlässlich ist.
-                    HealthiQ arbeitet mit Fachgesellschaften, Organisationen und Institutionen zusammen,
-                    um geprüfte Inhalte und Materialien bereitzustellen.
-                  </p>
-
-                  <h4 className="text-1xl font-bold text-left pt-4" >Zusammenarbeit</h4>
-                  <p className="text-base leading-relaxed text-left pt-2">
-                    Gesundheit ist Teamarbeit.
-                    HealthiQ bringt Betroffene, Angehörige und Institutionen in einem strukturierten
-                    digitalen Raum zusammen und stärkt so gegenseitiges Verständnis und nachhaltige
-                    Unterstützung.
+                  <p className="text-base leading-relaxed">
+                    HealthiQ steht für Sicherheit, Datenschutz, Qualität und Zusammenarbeit. 
+                    Gesundheitsbezogener Austausch braucht klare Regeln, Schutzmechanismen und 
+                    Governance, um Vertrauen zu ermöglichen. Privatsphäre ist dabei Voraussetzung für 
+                    Offenheit: HealthiQ ist DSGVO-konform, pseudonym nutzbar und datenminimiert. 
+                    Verlässliche Informationen entstehen durch Zusammenarbeit mit Fachgesellschaften, 
+                    Organisationen und Institutionen.
                   </p>
                 </div>
               </ScrollAnimationWrapper>
@@ -661,7 +641,6 @@ const HomePage: React.FC = () => {
               {/* Team Info */}
               <ScrollAnimationWrapper animationType="fade-up" delay={200}>
                   <button
-                    onClick={() => window.open('/Benedikt Hochmuth_Lebenslauf.pdf', '_blank')}
                     className="group bg-gray-50 hover:bg-gray-100 rounded-xl p-6 text-left hover:shadow-md transform hover:scale-102 transition-all duration-300 border border-gray-200 hover:border-gray-300 cursor-pointer w-full"
                   >
                     <h3 className="text-2xl font-bold text-gray-900 mb-3">Benedikt Hochmuth</h3>
@@ -679,20 +658,19 @@ const HomePage: React.FC = () => {
                       Partnerschaften und Außenauftritt und hält das Projekt nach innen zusammen und nach
                       außen klar positioniert.
                     </p>
-                    <div className="mt-4 pt-3 border-t border-gray-200 group-hover:border-gray-300 transition-colors duration-300">
+                    {/* <div className="mt-4 pt-3 border-t border-gray-200 group-hover:border-gray-300 transition-colors duration-300">
                       <div className="flex items-center justify-center text-gray-600 group-hover:text-gray-800 transition-colors duration-300">
                         <span className="text-sm font-medium mr-2">Lebenslauf öffnen</span>
                         <svg className="w-4 h-4 transform group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                         </svg>
                       </div>
-                    </div>
+                    </div> */}
                   </button>
                 </ScrollAnimationWrapper>
 
                 <ScrollAnimationWrapper animationType="fade-up" delay={300}>
                   <button
-                    onClick={() => window.open('/Stephan Körner_Lebenslauf2.0.pdf', '_blank')}
                     className="group bg-gray-50 hover:bg-gray-100 rounded-xl p-6 text-left hover:shadow-md transform hover:scale-102 transition-all duration-300 border border-gray-200 hover:border-gray-300 cursor-pointer w-full"
                   >
                     <h3 className="text-2xl font-bold text-gray-900 mb-3">Stephan Körner</h3>
@@ -710,14 +688,14 @@ const HomePage: React.FC = () => {
                       Gründerteam. Er sorgt dafür, dass HealthiQ finanziell stabil wächst und
                       unternehmerisch jederzeit handlungsfähig bleibt. 
                     </p>
-                    <div className="mt-4 pt-3 border-t border-gray-200 group-hover:border-gray-300 transition-colors duration-300">
+                    {/* <div className="mt-4 pt-3 border-t border-gray-200 group-hover:border-gray-300 transition-colors duration-300">
                       <div className="flex items-center justify-center text-gray-600 group-hover:text-gray-800 transition-colors duration-300">
                         <span className="text-sm font-medium mr-2">Lebenslauf öffnen</span>
                         <svg className="w-4 h-4 transform group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                         </svg>
                       </div>
-                    </div>
+                    </div> */}
                   </button>
                 </ScrollAnimationWrapper>
 
