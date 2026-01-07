@@ -106,7 +106,7 @@ const StickyNavigation: React.FC = () => {
             isMenuOpen ? 'opacity-100 visible' : 'opacity-0 invisible'
           }`}
         >
-          <div className="px-4 py-4 space-y-4">
+          <div className="px-4 py-4 space-y-4 bg-white/85">
             {menuItems.slice(1).map((item) => (
               <button
                 key={item.href}
@@ -114,7 +114,7 @@ const StickyNavigation: React.FC = () => {
                 className={`block w-full text-left text-base font-medium transition-colors ${
                   activeSection === item.href.substring(1)
                     ? 'text-healthiq-secondary'
-                    : 'text-healthiq-background/90 hover:text-healthiq-background'
+                    : 'text-healthiq-primary hover:text-healthiq-background'
                 }`}
               >
                 {item.label}
